@@ -3,21 +3,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
-    min-height: 100vh;
-    background-color: yellowgreen;
-    margin-left: 270px;
-}
-
-.about-us div {
-    position: absolute;
-    top: 30%;
-    background-color: blue;
-    margin: 0 0 0 50px;
-}
-
-.experience div {
-    margin-top: 50px;
+html {
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -26,4 +13,53 @@ h1 {
 
 p {
     color: green;
+}
+
+nav {
+    min-height: 100vh;
+    width: 290px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: indigo;
+}
+
+nav img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid white;
+    display: block;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+section {
+    min-height: 100vh;
+    margin-left: 270px;
+}
+
+.about-us div {
+    position: absolute;
+    top: 30%;
+    margin: 0 0 0 50px;
+}
+
+.experience div {
+    margin-top: 50px;
+}
+
+.travel-entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
