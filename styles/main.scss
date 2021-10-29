@@ -1,0 +1,73 @@
+@import "variables";
+
+/* Common CSS theme shared on every single page */
+/* set the font family and reset HTML */
+html,
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    background-color: #161619;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+    ul {
+        width: 300px;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    
+        li a {
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &:visited {
+                color: white;
+            }
+        }
+    }
+}
+
+.main-section {
+    margin: 100px;
+
+    h1 {
+        font-size: 40px;
+        margin: 0 0 20px 0;
+
+        &::after {
+            content: " |";
+        }
+    }
+}
+
+footer {
+    margin-top: auto;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import "index";
+@import "about";
+@import "portfolio";
+@import "blog";
+@import "contact";
