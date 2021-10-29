@@ -2,77 +2,85 @@
 /* set the font family and reset HTML */
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #161619;
-  color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #161619;
+    color: white;
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
+
 header nav ul {
-  width: 300px;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
+    width: 300px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
+
 header nav ul li a {
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
 }
+
 header nav ul li a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 header nav ul li a:visited {
-  color: white;
+    color: white;
 }
 
 .main-section {
-  margin: 100px;
+    margin: 100px;
 }
+
 .main-section h1 {
-  font-size: 40px;
-  margin: 0 0 20px 0;
+    font-size: 40px;
+    margin: 0 0 20px 0;
 }
+
 .main-section h1::after {
-  content: " |";
+    content: " |";
 }
 
 footer {
-  margin-top: auto;
-  min-height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin-top: auto;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* contact page */
 #contact-section form {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
 }
+
 #contact-section form p {
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
 }
+
 #contact-section form p input[type=submit] {
-  width: 150px;
-  align-self: flex-end;
+    width: 150px;
+    align-self: flex-end;
 }
 
 /*# sourceMappingURL=main.css.map */
