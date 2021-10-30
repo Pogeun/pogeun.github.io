@@ -1,7 +1,7 @@
 @import "variables";
 
-/* Common CSS theme shared on every single page */
-/* set the font family and reset HTML */
+/* Common CSS theme shared on every page */
+/* set the font family and reset CSS */
 html,
 body {
     font-family: $font-family;
@@ -12,15 +12,20 @@ body {
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
+header {
+    background-color: #161619;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+    }
 
     ul {
         width: 300px;
@@ -44,6 +49,10 @@ header nav {
             }
         }
     }
+}
+
+#logo {
+    width: 120px;
 }
 
 .main-section {

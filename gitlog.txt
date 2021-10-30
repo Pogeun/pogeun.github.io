@@ -1,0 +1,44 @@
+commit f76aea5306c8a9e10ec486abc865d262ad3d2d5f
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Fri Oct 29 18:47:10 2021 +1100
+
+    indentation fixed for main.css
+
+commit 4992a6e2d865994632401de4441346697415802d
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Fri Oct 29 18:45:43 2021 +1100
+
+    fixed an error where anchor tag display wrong color for unvisited pages
+
+commit 2e0db65d011aba3a9633989a3651ff2df7fed864
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Fri Oct 29 18:40:31 2021 +1100
+
+    * major updates for:
+        - HTML (added blog.html & portfolio.html)
+        - CSS (SASS used)
+    * logo design added
+
+commit 417ebe3c1c6dca85996aeb5aa2d43862990874a9
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Fri Oct 22 20:35:21 2021 +1100
+
+    profile image added
+
+commit 6a74d4f1a980dfa43d5818052abea207e5e8a3cb
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Thu Oct 21 21:38:31 2021 +1100
+
+    More updates
+
+commit 617f5b6927bfbe66d8930bb8fa09107f40e5f8ee
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Thu Oct 21 12:18:17 2021 +1100
+
+    added index.html & style.css
+
+commit 97acc53eb2cb19e823d1e0d504524b26eda028aa
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Thu Oct 21 11:59:07 2021 +1100
+
+    first commit
