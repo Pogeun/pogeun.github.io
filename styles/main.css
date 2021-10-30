@@ -70,6 +70,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  header nav {
+    margin: 20px;
+  }
   header nav ul {
     display: none;
   }
@@ -115,6 +118,11 @@ footer {
   }
   header nav .menu-button.open .menu-button__burger::after {
     transform: rotate(-45deg) translate(21px, 21px);
+  }
+
+  footer {
+    /* trick to fix the position of the footer at the bottom */
+    margin: auto 0 20px 0;
   }
 }
 /* contact page */

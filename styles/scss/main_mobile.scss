@@ -9,6 +9,8 @@
 
 @media screen and (max-width: 600px) {
     header nav {
+        margin: 20px;
+
         ul {
             display: none;
         }
@@ -59,5 +61,10 @@
                 }
             }
         }
+    }
+
+    footer {
+        /* trick to fix the position of the footer at the bottom */
+        margin: auto 0 20px 0;
     }
 }
