@@ -1,6 +1,6 @@
 /* contact page */
 #contact-section form {
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-direction: column;
 
@@ -8,10 +8,14 @@
         margin: 5px;
         display: flex;
         flex-direction: column;
-    }
 
-    p input[type="submit"] {
-        width: 150px;
-        align-self: flex-end;
+        label {
+            font-size: 12px;
+        }
+
+        input[type="submit"] {
+            width: 150px;
+            align-self: flex-end;
+        }
     }
 }

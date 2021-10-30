@@ -1,92 +1,9 @@
 @import "variables";
-
-/* Common CSS theme shared on every page */
-/* set the font family and reset CSS */
-html,
-body {
-    font-family: $font-family;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #161619;
-    color: white;
-}
-
-body {
-    // min-height: 100vh;
-    /* trick to fix the position of the footer at the bottom */
-    display: flex;
-    flex-direction: column;
-}
-
-header {
-    background-color: #161619;
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 40px;
-
-        ul {
-            width: 300px;
-            height: 50px;
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        
-            li {
-                a {
-                    font-weight: bold;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: white;
-        
-                    &:hover {
-                        text-decoration: underline;
-                    }
-        
-                    &:visited {
-                        color: white;
-                    }
-                }
-            }
-        }
-
-        .menu-button {
-            display: none;
-        }
-    }
-}
-
-.main-section {
-    margin: 100px;
-
-    h1 {
-        font-size: 40px;
-        margin: 0 0 20px 0;
-
-        &::after {
-            content: " |";
-        }
-    }
-}
-
-footer {
-    /* trick to fix the position of the footer at the bottom */
-    margin: auto 0 40px 0;
-
-    display: flex;
-    justify-content: center;
-}
-
-@import "main_mobile";
-
+@import "shared";
+@import "shared_mobile";
 @import "index";
 @import "about";
 @import "portfolio";
 @import "blog";
 @import "contact";
+@import "contact_mobile";

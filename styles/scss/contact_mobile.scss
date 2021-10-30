@@ -1,0 +1,15 @@
+/* contact page */
+@media screen and (max-width: 600px) {
+    #contact-section form {
+        width: 350px;
+        align-self: center;
+
+        p {
+            margin: 5px;
+
+            input[type="submit"] {
+                width: 80px;
+            }
+        }
+    }
+}
