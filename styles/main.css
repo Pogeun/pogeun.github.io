@@ -2,143 +2,164 @@
 /* set the font family and reset CSS */
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #161619;
-  color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #161619;
+    color: white;
 }
 
 body {
-  /* trick to fix the position of the footer at the bottom */
-  display: flex;
-  flex-direction: column;
+    /* trick to fix the position of the footer at the bottom */
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-  background-color: #161619;
+    background-color: #161619;
 }
+
 header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
 }
+
 header nav ul {
-  width: 300px;
-  height: 50px;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 header nav ul li a {
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
 }
+
 header nav ul li a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 header nav ul li a:visited {
-  color: white;
+    color: white;
 }
+
 header nav .menu-button {
-  display: none;
+    display: none;
 }
 
 .main-section {
-  margin: 100px;
+    margin: 100px;
 }
+
 .main-section h1 {
-  font-size: 40px;
-  margin: 0 0 20px 0;
+    font-size: 40px;
+    margin: 0 0 20px 0;
 }
+
 .main-section h1::after {
-  content: " |";
+    content: " |";
 }
 
 footer {
-  /* trick to fix the position of the footer at the bottom */
-  margin: auto 0 40px 0;
-  display: flex;
-  justify-content: center;
+    /* trick to fix the position of the footer at the bottom */
+    margin: auto 0 40px 0;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
-  header nav {
-    margin: 20px;
-  }
-  header nav ul {
-    display: none;
-  }
-  header nav .menu-button {
-    width: 50px;
-    height: 50px;
-    transition: all 0.5s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  header nav .menu-button .menu-button__burger {
-    width: 35px;
-    height: 4px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-    transition: all 0.5s ease-in-out;
-  }
-  header nav .menu-button .menu-button__burger::before, header nav .menu-button .menu-button__burger::after {
-    content: "";
-    position: absolute;
-    width: 35px;
-    height: 4px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-    transition: all 0.5s ease-in-out;
-  }
-  header nav .menu-button .menu-button__burger::before {
-    transform: translateY(-10px);
-  }
-  header nav .menu-button .menu-button__burger::after {
-    transform: translateY(10px);
-  }
-  header nav .menu-button.open .menu-button__burger {
-    transform: translateX(-30px);
-    background: transparent;
-    box-shadow: none;
-  }
-  header nav .menu-button.open .menu-button__burger::before {
-    transform: rotate(45deg) translate(21px, -21px);
-  }
-  header nav .menu-button.open .menu-button__burger::after {
-    transform: rotate(-45deg) translate(21px, 21px);
-  }
+    header nav {
+        margin: 30px;
+    }
 
-  footer {
-    /* trick to fix the position of the footer at the bottom */
-    margin: auto 0 20px 0;
-  }
+    header nav ul {
+        display: none;
+    }
+
+    header nav .menu-button {
+        width: 50px;
+        height: 50px;
+        transition: all 0.5s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav .menu-button .menu-button__burger {
+        width: 35px;
+        height: 4px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+        transition: all 0.5s ease-in-out;
+    }
+
+    header nav .menu-button .menu-button__burger::before,
+    header nav .menu-button .menu-button__burger::after {
+        content: "";
+        position: absolute;
+        width: 35px;
+        height: 4px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+        transition: all 0.5s ease-in-out;
+    }
+
+    header nav .menu-button .menu-button__burger::before {
+        transform: translateY(-10px);
+    }
+
+    header nav .menu-button .menu-button__burger::after {
+        transform: translateY(10px);
+    }
+
+    header nav .menu-button.open .menu-button__burger {
+        transform: translateX(-30px);
+        background: transparent;
+        box-shadow: none;
+    }
+
+    header nav .menu-button.open .menu-button__burger::before {
+        transform: rotate(45deg) translate(21px, -21px);
+    }
+
+    header nav .menu-button.open .menu-button__burger::after {
+        transform: rotate(-45deg) translate(21px, 21px);
+    }
+
+    footer {
+        /* trick to fix the position of the footer at the bottom */
+        margin: auto 0 20px 0;
+    }
 }
+
 /* contact page */
 #contact-section form {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
 }
+
 #contact-section form p {
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
 }
+
 #contact-section form p input[type=submit] {
-  width: 150px;
-  align-self: flex-end;
+    width: 150px;
+    align-self: flex-end;
 }
 
 /*# sourceMappingURL=main.css.map */
