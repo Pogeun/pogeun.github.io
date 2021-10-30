@@ -1,0 +1,8 @@
+Apple:
+    iPhone 12 Pro Max       428 x 926
+    iPad Pro 11             834 x 1194
+
+Samsung:
+    Galaxy S21 Ultra        384 x 854
+
+PC                          1920 x 1080
