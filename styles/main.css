@@ -5,25 +5,22 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 100vh;
   background-color: #161619;
   color: white;
-}
-
-body {
-  /* trick to fix the position of the footer at the bottom */
-  display: flex;
-  flex-direction: column;
 }
 
 header {
   background-color: #161619;
 }
 header nav {
+  margin: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px;
+}
+header nav a svg#logo g .cls-1 {
+  fill: white;
 }
 header nav ul {
   width: 300px;
@@ -40,9 +37,24 @@ header nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+  position: relative;
+  display: inline-block;
 }
-header nav ul li a:hover {
-  text-decoration: underline;
+header nav ul li a:after {
+  content: "";
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  left: 50%;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  position: absolute;
+  display: block;
+}
+header nav ul li a:hover:after {
+  width: 100%;
+  left: 0;
 }
 header nav ul li a:visited {
   color: white;
@@ -51,24 +63,24 @@ header nav .menu-button {
   display: none;
 }
 
-.main-section {
+.main-article {
   margin: 80px;
   display: flex;
   flex-direction: column;
 }
-.main-section h1 {
+.main-article h1 {
   font-size: 40px;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
-.main-section h1::after {
+.main-article h1::after {
   content: " |";
 }
 
 footer {
-  /* trick to fix the position of the footer at the bottom */
-  margin: auto 0 40px 0;
+  margin: 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -89,9 +101,9 @@ footer {
   header nav .menu-button .menu-button__burger {
     width: 35px;
     height: 4px;
-    background: #fff;
+    background: white;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    box-shadow: 0 2px 5px #ff652f33;
     transition: all 0.5s ease-in-out;
   }
   header nav .menu-button .menu-button__burger::before, header nav .menu-button .menu-button__burger::after {
@@ -99,9 +111,9 @@ footer {
     position: absolute;
     width: 35px;
     height: 4px;
-    background: #fff;
+    background: white;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    box-shadow: 0 2px 5px #ff652f33;
     transition: all 0.5s ease-in-out;
   }
   header nav .menu-button .menu-button__burger::before {
@@ -122,51 +134,183 @@ footer {
     transform: rotate(-45deg) translate(21px, 21px);
   }
 
-  .main-section {
+  .main-article {
     margin: 40px;
   }
-  .main-section h1 {
+  .main-article h1 {
     font-size: 30px;
     margin: 0 0 20px 0;
   }
-  .main-section h1::after {
+  .main-article h1::after {
     content: " |";
   }
 
   footer {
-    /* trick to fix the position of the footer at the bottom */
-    margin: auto 0 20px 0;
+    font-size: 12px;
   }
 }
-/* contact page */
-#contact-section form {
+#home-article {
+  display: flex;
+}
+#home-article section {
+  align-self: center;
+}
+#home-article section img {
+  width: 100%;
+}
+
+/* blog page */
+#blog-article section {
+  width: 75%;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+#blog-article section .blog-post-preview {
   width: 400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-out;
+}
+#blog-article section .blog-post-preview p,
+#blog-article section .blog-post-preview img,
+#blog-article section .blog-post-preview h2,
+#blog-article section .blog-post-preview .blog-post-preview-button {
+  margin: 10px;
+}
+#blog-article section .blog-post-preview h2,
+#blog-article section .blog-post-preview .blog-post-preview-button {
+  align-self: flex-start;
+}
+#blog-article section .blog-post-preview .blog-post-preview-button {
+  appearance: button;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  text-decoration: none;
+  background-color: #8d4d37;
+  border: 1px solid #8d4d37;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: visible;
+  padding: 12px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+}
+#blog-article section .blog-post-preview .blog-post-preview-button:disabled {
+  opacity: 0.5;
+}
+#blog-article section .blog-post-preview .blog-post-preview-button:focus {
+  outline: 0;
+}
+#blog-article section .blog-post-preview .blog-post-preview-button:hover {
+  background-color: #6b3726;
+  border-color: #6b3726;
+}
+#blog-article section .blog-post-preview img {
+  width: calc(100% - 20px);
+  border-radius: 10px;
+}
+#blog-article section .blog-post-preview:hover {
+  transform: scale(1.05);
+}
+
+/* blog post page */
+#blog_post-article section {
+  width: 1000px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#blog_post-article section p.blog_post-back {
+  align-self: flex-start;
+}
+#blog_post-article section p.blog_post-back a {
+  text-decoration: none;
+  color: white;
+}
+#blog_post-article section p.blog_post-back a:hover {
+  text-decoration: underline;
+}
+#blog_post-article section h2,
+#blog_post-article section .blog_post-profile {
+  margin: 10px 80px;
+}
+#blog_post-article section h2 {
+  font-size: 40px;
+  align-self: center;
+}
+#blog_post-article section > img {
+  margin: 10px;
+  width: 900px;
+}
+#blog_post-article section .blog_post-profile {
+  align-self: flex-start;
+  display: flex;
+}
+#blog_post-article section .blog_post-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#blog_post-article section .blog_post-profile .blog_post-author {
+  align-self: center;
+}
+#blog_post-article section .blog_post-profile .blog_post-author p {
+  margin: 0 10px;
+  font-size: 12px;
+}
+#blog_post-article section p {
+  margin: 10px 80px;
+}
+
+/* contact page */
+#contact-article form {
+  width: 400px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
 }
-#contact-section form p {
+#contact-article form p {
   margin: 5px;
   display: flex;
   flex-direction: column;
 }
-#contact-section form p label {
+#contact-article form p label {
   font-size: 12px;
 }
-#contact-section form p input[type=submit] {
+#contact-article form p input[type=submit] {
   width: 150px;
   align-self: flex-end;
 }
 
-/* contact page */
+/* contact mobile page */
 @media screen and (max-width: 600px) {
-  #contact-section form {
+  #contact-article form {
     width: 350px;
     align-self: center;
   }
-  #contact-section form p {
+  #contact-article form p {
     margin: 5px;
   }
-  #contact-section form p input[type=submit] {
+  #contact-article form p input[type=submit] {
     width: 80px;
   }
 }

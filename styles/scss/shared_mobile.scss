@@ -1,9 +1,9 @@
 @mixin hamburger-style {
     width: 35px;
     height: 4px;
-    background: #fff;
+    background: white;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    box-shadow: 0 2px 5px #ff652f33;
     transition: all .5s ease-in-out;
 }
 
@@ -61,7 +61,7 @@
         }
     }
 
-    .main-section {
+    .main-article {
         margin: 40px;
     
         h1 {
@@ -75,7 +75,6 @@
     }
 
     footer {
-        /* trick to fix the position of the footer at the bottom */
-        margin: auto 0 20px 0;
+        font-size: 12px;
     }
 }

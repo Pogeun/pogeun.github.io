@@ -1,1 +1,34 @@
 $font-family: 'Roboto', sans-serif;
+$primary-color: #161619;
+
+@mixin center {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin style-link {
+    position: relative;
+    display: inline-block;
+
+    &:after {
+        content: "";
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        left: 50%;
+        background: white;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        position: absolute;
+        display: block;
+    }
+
+    &:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
+    &:visited {
+        color: white;
+    }
+}
