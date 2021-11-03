@@ -1,0 +1,57 @@
+/* about page */
+#about-article section {
+    width: 50%;
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    h2::before {
+        content: "# ";
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        margin-left: 40px;
+    }
+
+    #contact-details {
+        h2 {
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        iframe#map {
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 10px 40px;
+        }
+    }
+
+    #introduction {
+        h2 {
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        #full-name,
+        a {
+            font-weight: bold;
+        }
+
+        img {
+            width: 400px;
+            border-radius: 10px;
+            margin: 10px 40px;
+        }
+    }
+}

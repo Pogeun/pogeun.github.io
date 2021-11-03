@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: flex-start;
 
-    .blog-post-preview {
+    .preview {
         width: 400px;
         margin: 20px;
         display: flex;
@@ -20,16 +20,16 @@
         p,
         img,
         h2,
-        .blog-post-preview-button {
+        .preview-button {
             margin: 10px;
         }
     
         h2,
-        .blog-post-preview-button {
+        .preview-button {
             align-self: flex-start;
         }
     
-        .blog-post-preview-button {
+        .preview-button {
             appearance: button;
             -webkit-appearance: button;
             -moz-appearance: button;

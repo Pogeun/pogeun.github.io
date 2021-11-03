@@ -159,6 +159,51 @@ footer {
   width: 100%;
 }
 
+/* about page */
+#about-article section {
+  width: 50%;
+  margin: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#about-article section h2::before {
+  content: "# ";
+}
+#about-article section a {
+  text-decoration: none;
+  color: white;
+}
+#about-article section a:hover {
+  text-decoration: underline;
+}
+#about-article section p {
+  margin-left: 40px;
+}
+#about-article section #contact-details h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+#about-article section #contact-details iframe#map {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px 40px;
+}
+#about-article section #introduction h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+#about-article section #introduction #full-name,
+#about-article section #introduction a {
+  font-weight: bold;
+}
+#about-article section #introduction img {
+  width: 400px;
+  border-radius: 10px;
+  margin: 10px 40px;
+}
+
 /* blog page */
 #blog-article section {
   width: 75%;
@@ -168,7 +213,7 @@ footer {
   justify-content: center;
   align-items: flex-start;
 }
-#blog-article section .blog-post-preview {
+#blog-article section .preview {
   width: 400px;
   margin: 20px;
   display: flex;
@@ -177,17 +222,17 @@ footer {
   align-items: center;
   transition: all 0.5s ease-out;
 }
-#blog-article section .blog-post-preview p,
-#blog-article section .blog-post-preview img,
-#blog-article section .blog-post-preview h2,
-#blog-article section .blog-post-preview .blog-post-preview-button {
+#blog-article section .preview p,
+#blog-article section .preview img,
+#blog-article section .preview h2,
+#blog-article section .preview .preview-button {
   margin: 10px;
 }
-#blog-article section .blog-post-preview h2,
-#blog-article section .blog-post-preview .blog-post-preview-button {
+#blog-article section .preview h2,
+#blog-article section .preview .preview-button {
   align-self: flex-start;
 }
-#blog-article section .blog-post-preview .blog-post-preview-button {
+#blog-article section .preview .preview-button {
   appearance: button;
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -211,21 +256,21 @@ footer {
   touch-action: manipulation;
   width: fit-content;
 }
-#blog-article section .blog-post-preview .blog-post-preview-button:disabled {
+#blog-article section .preview .preview-button:disabled {
   opacity: 0.5;
 }
-#blog-article section .blog-post-preview .blog-post-preview-button:focus {
+#blog-article section .preview .preview-button:focus {
   outline: 0;
 }
-#blog-article section .blog-post-preview .blog-post-preview-button:hover {
+#blog-article section .preview .preview-button:hover {
   background-color: #6b3726;
   border-color: #6b3726;
 }
-#blog-article section .blog-post-preview img {
+#blog-article section .preview img {
   width: calc(100% - 20px);
   border-radius: 10px;
 }
-#blog-article section .blog-post-preview:hover {
+#blog-article section .preview:hover {
   transform: scale(1.05);
 }
 
@@ -239,18 +284,17 @@ footer {
   justify-content: center;
   align-items: center;
 }
-#blog_post-article section p.blog_post-back {
-  align-self: flex-start;
-}
-#blog_post-article section p.blog_post-back a {
+#blog_post-article section a#back {
+  margin: 10px 80px;
   text-decoration: none;
   color: white;
+  align-self: flex-start;
 }
-#blog_post-article section p.blog_post-back a:hover {
+#blog_post-article section a#back:hover {
   text-decoration: underline;
 }
 #blog_post-article section h2,
-#blog_post-article section .blog_post-profile {
+#blog_post-article section #profile {
   margin: 10px 80px;
 }
 #blog_post-article section h2 {
@@ -261,19 +305,19 @@ footer {
   margin: 10px;
   width: 900px;
 }
-#blog_post-article section .blog_post-profile {
+#blog_post-article section #profile {
   align-self: flex-start;
   display: flex;
 }
-#blog_post-article section .blog_post-profile img {
+#blog_post-article section #profile img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-#blog_post-article section .blog_post-profile .blog_post-author {
+#blog_post-article section #profile #author {
   align-self: center;
 }
-#blog_post-article section .blog_post-profile .blog_post-author p {
+#blog_post-article section #profile #author p {
   margin: 0 10px;
   font-size: 12px;
 }
