@@ -177,6 +177,9 @@ footer {
 #about-article section a:hover {
   text-decoration: underline;
 }
+#about-article section a:visited {
+  color: white;
+}
 #about-article section p {
   margin-left: 40px;
 }

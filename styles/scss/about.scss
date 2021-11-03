@@ -17,6 +17,10 @@
         &:hover {
             text-decoration: underline;
         }
+
+        &:visited {
+            color: white;
+        }
     }
 
     p {
