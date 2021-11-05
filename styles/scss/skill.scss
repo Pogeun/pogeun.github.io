@@ -1,0 +1,58 @@
+#skill-article section {
+    // -webkit-touch-callout: none; /* iOS Safari */
+    // -webkit-user-select: none; /* Safari */
+    // -khtml-user-select: none; /* Konqueror HTML */
+    // -moz-user-select: none; /* Old versions of Firefox */
+    // -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .slideshow {
+        width: 400px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+
+        .slides {
+            width: 100%;
+        }
+        
+        #navigation {
+            margin: 10px 0;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+            #left,
+            .dots,
+            #right {
+                cursor: pointer;
+            }
+
+            #dot-list {
+                display: flex;
+    
+                @include center;
+            }
+    
+            .dots {
+                margin: 0 2px;
+                width: 10px;
+                height: 10px;
+                border: 1px solid white;
+                border-radius: 50%;
+    
+                &:hover {
+                    background-color: white;
+                }
+            }
+    
+            .activated {
+                background-color: white;
+            }
+        }
+    }
+}
