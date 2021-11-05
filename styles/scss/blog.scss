@@ -1,10 +1,8 @@
 /* blog page */
 #blog-article section {
-    width: 75%;
-    align-self: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
 
     .preview {
@@ -20,16 +18,16 @@
         p,
         img,
         h2,
-        .preview-button {
+        .button {
             margin: 10px;
         }
     
         h2,
-        .preview-button {
+        .button {
             align-self: flex-start;
         }
     
-        .preview-button {
+        .button {
             appearance: button;
             -webkit-appearance: button;
             -moz-appearance: button;

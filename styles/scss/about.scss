@@ -1,13 +1,22 @@
 /* about page */
+@mixin adjust-image {
+    width: 400px;
+    border-radius: 5px;
+    margin: 10px 40px;
+}
+
 #about-article section {
-    width: 50%;
-    margin: 20px 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
-    h2::before {
-        content: "# ";
+    h2 {
+        text-transform: uppercase;
+        margin: 20px 10px;
+
+        &::before {
+            content: "# ";
+        }
     }
 
     a {
@@ -23,39 +32,40 @@
         }
     }
 
-    p {
-        margin-left: 40px;
+    p,
+    #sns {
+        margin: 5px 40px;
     }
 
-    #contact-details {
-        h2 {
-            text-transform: uppercase;
-            margin: 0;
-        }
+    #sns {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
 
-        iframe#map {
-            width: 400px;
+        .icon img {
+            width: 30px;
+            /* remove unwanted height on anchor tag */
+            vertical-align: bottom;
+            display: inline-block;
+        }
+    }
+
+    iframe {
+        @include adjust-image;
+
+        &.map {
             height: 300px;
-            border-radius: 10px;
-            margin: 10px 40px;
         }
     }
 
     #introduction {
-        h2 {
-            text-transform: uppercase;
-            margin: 0;
-        }
-
         #full-name,
         a {
             font-weight: bold;
         }
 
         img {
-            width: 400px;
-            border-radius: 10px;
-            margin: 10px 40px;
+            @include adjust-image;
         }
     }
 }

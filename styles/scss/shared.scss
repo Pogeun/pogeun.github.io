@@ -25,7 +25,6 @@ header {
             }
         }
         
-        
         ul {
             width: 300px;
             height: 50px;
@@ -42,6 +41,12 @@ header {
                     text-decoration: none;
                     text-transform: uppercase;
                     color: white;
+                    // -webkit-touch-callout: none; /* iOS Safari */
+                    // -webkit-user-select: none; /* Safari */
+                    // -khtml-user-select: none; /* Konqueror HTML */
+                    // -moz-user-select: none; /* Old versions of Firefox */
+                    // -ms-user-select: none; /* Internet Explorer/Edge */
+                    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
                 
                     @include style-link;
                 }
@@ -55,22 +60,34 @@ header {
 }
 
 .main-article {
-    margin: 80px;
+    margin: 100px 0;
     display: flex;
     flex-direction: column;
 
     h1 {
-        font-size: 40px;
-        margin: 0;
+        font-size: 50px;
+        margin: 30px 200px;
+        text-transform: uppercase;
+        // -webkit-touch-callout: none; /* iOS Safari */
+        // -webkit-user-select: none; /* Safari */
+        // -khtml-user-select: none; /* Konqueror HTML */
+        // -moz-user-select: none; /* Old versions of Firefox */
+        // -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 
         &::after {
             content: " |";
         }
     }
+
+    section {
+        width: 60%;
+        align-self: center;
+    }
 }
 
 footer {
-    margin: 60px;
+    height: 100px;
     display: flex;
     
     @include center;
