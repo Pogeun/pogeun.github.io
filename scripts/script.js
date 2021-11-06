@@ -1,29 +1,30 @@
-// slide show
+// first slide to show
 var index = 1;
 
 // show first slide
-show(index);
+show(1, index);
+show(2, index);
 
-function showNext(n) {
-    show(index += n);
+function showNext(showNum, slideNum) {
+    show(showNum, index += slideNum);
 }
 
-function showCurrent(n) {
-    show(index = n);
+function showCurrent(showNum, slideNum) {
+    show(showNum, index = slideNum);
 }
 
-function show(n) {
+function show(showNum, slideNum) {
     // get slides and dots
-    var slides = document.getElementsByClassName("slides");
-    var dots = document.getElementsByClassName("dots");
+    var slides = document.getElementsByClassName("slides show-" + showNum);
+    var dots = document.getElementsByClassName("dots show-" + showNum);
 
     // go to very first slide
-    if (n > slides.length) {
+    if (slideNum > slides.length) {
         index = 1;
     }
 
     // go to very last slide
-    if (n < 1) {
+    if (slideNum < 1) {
         index = slides.length;
     }
 

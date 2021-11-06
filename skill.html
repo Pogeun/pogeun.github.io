@@ -91,21 +91,43 @@
     <article class="main-article" id="skill-article">
         <h1>Skill</h1>
         <section>
-            <div class="slideshow">
-                <img class="slides" src="images/Souffle.jpg" alt="Souffle">
-                <img class="slides" src="images/cake.jpg" alt="Cake">
-                <img class="slides" src="images/Chocolate-pudding.jpg" alt="Chocolate pudding">
-                <img class="slides" src="images/Strawberry-tart.jpg" alt="Strawberry tart">
-                <div id="navigation">
-                    <div id="left" onclick="showNext(-1)">&#10094;</div>
-                    <div id="dot-list">
-                        <div class="dots" onclick="showCurrent(1)"></div>
-                        <div class="dots" onclick="showCurrent(2)"></div>
-                        <div class="dots" onclick="showCurrent(3)"></div>
-                        <div class="dots" onclick="showCurrent(4)"></div>
+            <div class="content">
+                <div class="slideshow">
+                    <img class="slides show-1" src="images/Souffle.jpg" alt="Souffle">
+                    <img class="slides show-1" src="images/cake.jpg" alt="Cake">
+                    <img class="slides show-1" src="images/Chocolate-pudding.jpg" alt="Chocolate pudding">
+                    <img class="slides show-1" src="images/Strawberry-tart.jpg" alt="Strawberry tart">
+                    <div class="navigation">
+                        <div class="left-arrow show-1" onclick="showNext(1, -1)">&#10094;</div>
+                        <div class="dot-list">
+                            <div class="dots show-1" onclick="showCurrent(1, 1)"></div>
+                            <div class="dots show-1" onclick="showCurrent(1, 2)"></div>
+                            <div class="dots show-1" onclick="showCurrent(1, 3)"></div>
+                            <div class="dots show-1" onclick="showCurrent(1, 4)"></div>
+                        </div>
+                        <div class="right-arrow show-1" onclick="showNext(1, 1)">&#10095;</div>
                     </div>
-                    <div id="right" onclick="showNext(1)">&#10095;</div>
                 </div>
+                <h3 class="description">Patisserie</h3>
+            </div>
+            <div class="content">
+                <div class="slideshow">
+                    <img class="slides show-2" src="images/Souffle.jpg" alt="Souffle">
+                    <img class="slides show-2" src="images/cake.jpg" alt="Cake">
+                    <img class="slides show-2" src="images/Chocolate-pudding.jpg" alt="Chocolate pudding">
+                    <img class="slides show-2" src="images/Strawberry-tart.jpg" alt="Strawberry tart">
+                    <div class="navigation">
+                        <div class="left-arrow show-2" onclick="showNext(2, -1)">&#10094;</div>
+                        <div class="dot-list">
+                            <div class="dots show-2" onclick="showCurrent(2, 1)"></div>
+                            <div class="dots show-2" onclick="showCurrent(2, 2)"></div>
+                            <div class="dots show-2" onclick="showCurrent(2, 3)"></div>
+                            <div class="dots show-2" onclick="showCurrent(2, 4)"></div>
+                        </div> 
+                        <div class="right-arrow show-2" onclick="showNext(2, 1)">&#10095;</div>
+                    </div>
+                </div>
+                <h3 class="description">Patisserie</h3>
             </div>
         </section>
     </article>

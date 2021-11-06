@@ -1,58 +1,77 @@
 #skill-article section {
-    // -webkit-touch-callout: none; /* iOS Safari */
-    // -webkit-user-select: none; /* Safari */
-    // -khtml-user-select: none; /* Konqueror HTML */
-    // -moz-user-select: none; /* Old versions of Firefox */
-    // -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
-    .slideshow {
-        width: 400px;
-        align-self: center;
+    .content {
+        margin-bottom: 20px;
         display: flex;
         flex-direction: column;
 
-        .slides {
-            width: 100%;
-        }
-        
-        #navigation {
-            margin: 10px 0;
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-    
-            #left,
-            .dots,
-            #right {
-                cursor: pointer;
-            }
+        @include center;
 
-            #dot-list {
-                display: flex;
+        .slideshow,
+        .description {
+            width: 300px;
+        }
+
+        .slideshow {
+            display: flex;
+            flex-direction: column;
     
-                @include center;
+            .slides {
+                width: 100%;
             }
+            
+            .navigation {
+                margin: 10px 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+        
+                .left-arrow,
+                .dots,
+                .right-arrow {
+                    // -webkit-touch-callout: none; /* iOS Safari */
+                    // -webkit-user-select: none; /* Safari */
+                    // -khtml-user-select: none; /* Konqueror HTML */
+                    // -moz-user-select: none; /* Old versions of Firefox */
+                    // -ms-user-select: none; /* Internet Explorer/Edge */
+                    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+                    cursor: pointer;
+                }
     
-            .dots {
-                margin: 0 2px;
-                width: 10px;
-                height: 10px;
-                border: 1px solid white;
-                border-radius: 50%;
-    
-                &:hover {
+                .dot-list {
+                    display: flex;
+        
+                    @include center;
+                }
+        
+                .dots {
+                    margin: 0 2px;
+                    width: 10px;
+                    height: 10px;
+                    border: 1px solid white;
+                    border-radius: 50%;
+        
+                    &:hover {
+                        background-color: white;
+                    }
+                }
+        
+                .activated {
                     background-color: white;
                 }
             }
-    
-            .activated {
-                background-color: white;
-            }
+        }
+
+        .description {
+            margin: 10px;
+            text-transform: uppercase;
+            display: flex;
+            
+            @include center;
         }
     }
 }

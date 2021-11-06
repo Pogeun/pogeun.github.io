@@ -182,50 +182,66 @@ footer {
 }
 
 #skill-article section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#skill-article section .content {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#skill-article section .content .slideshow,
+#skill-article section .content .description {
+  width: 300px;
+}
+#skill-article section .content .slideshow {
+  display: flex;
+  flex-direction: column;
+}
+#skill-article section .content .slideshow .slides {
+  width: 100%;
+}
+#skill-article section .content .slideshow .navigation {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#skill-article section .content .slideshow .navigation .left-arrow,
+#skill-article section .content .slideshow .navigation .dots,
+#skill-article section .content .slideshow .navigation .right-arrow {
   user-select: none;
   /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-#skill-article section .slideshow {
-  width: 400px;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-}
-#skill-article section .slideshow .slides {
-  width: 100%;
-}
-#skill-article section .slideshow #navigation {
-  margin: 10px 0;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-#skill-article section .slideshow #navigation #left,
-#skill-article section .slideshow #navigation .dots,
-#skill-article section .slideshow #navigation #right {
   cursor: pointer;
 }
-#skill-article section .slideshow #navigation #dot-list {
+#skill-article section .content .slideshow .navigation .dot-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#skill-article section .slideshow #navigation .dots {
+#skill-article section .content .slideshow .navigation .dots {
   margin: 0 2px;
   width: 10px;
   height: 10px;
   border: 1px solid white;
   border-radius: 50%;
 }
-#skill-article section .slideshow #navigation .dots:hover {
+#skill-article section .content .slideshow .navigation .dots:hover {
   background-color: white;
 }
-#skill-article section .slideshow #navigation .activated {
+#skill-article section .content .slideshow .navigation .activated {
   background-color: white;
+}
+#skill-article section .content .description {
+  margin: 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* blog page */
