@@ -66,7 +66,7 @@ header {
 
     h1 {
         font-size: 50px;
-        margin: 30px 200px;
+        margin: 30px 10%;
         text-transform: uppercase;
         // -webkit-touch-callout: none; /* iOS Safari */
         // -webkit-user-select: none; /* Safari */
@@ -87,7 +87,7 @@ header {
 }
 
 footer {
-    height: 100px;
+    height: 80px;
     display: flex;
     
     @include center;

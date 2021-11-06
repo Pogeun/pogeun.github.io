@@ -2,8 +2,9 @@
 var index = 1;
 
 // show first slide
-show(1, index);
-show(2, index);
+for (var i = 1; i <= 2; i++) {
+    show(i, index);
+}
 
 function showNext(showNum, slideNum) {
     show(showNum, index += slideNum);

@@ -1,0 +1,44 @@
+/* about mobile page */
+@mixin about_mobile-adjust-image {
+    width: 80%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    #about-article section {
+        width: 100%;
+        
+        h2 {
+            margin: 0;
+        }
+
+        p {
+            margin: 5px 5%;
+        }
+
+        #contact-details,
+        #introduction {
+            width: 100%;
+        }
+
+        #contact-details,
+        #introduction {
+            display: flex;
+            flex-direction: column;
+        }
+
+        iframe,
+        img {
+            @include about_mobile-adjust-image;
+
+            align-self: center;
+        }
+
+        #introduction {
+            img {
+                @include about_mobile-adjust-image;
+            }
+        }
+    }
+}

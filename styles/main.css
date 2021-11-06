@@ -72,7 +72,7 @@ header nav .menu-button {
 }
 .main-article h1 {
   font-size: 50px;
-  margin: 30px 200px;
+  margin: 30px 10%;
   text-transform: uppercase;
   user-select: none;
   /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
@@ -86,7 +86,7 @@ header nav .menu-button {
 }
 
 footer {
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,14 +105,11 @@ footer {
   }
 
   .main-article {
-    margin: 20px;
+    margin: 10px 10px;
   }
   .main-article h1 {
     font-size: 2rem;
-    margin: 10px 40px;
-  }
-  .main-article section {
-    width: 100%;
+    margin: 10px 5%;
   }
 }
 #home-article {
@@ -127,9 +124,21 @@ footer {
 
 /* about page */
 #about-article section {
+  width: 65%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+#about-article section #contact-details #sns {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+#about-article section #contact-details #sns .icon img {
+  width: 30px;
+  /* remove unwanted height on anchor tag */
+  vertical-align: bottom;
+  display: inline-block;
 }
 #about-article section h2 {
   text-transform: uppercase;
@@ -152,24 +161,13 @@ footer {
 #about-article section #sns {
   margin: 5px 40px;
 }
-#about-article section #sns {
-  width: 100px;
-  display: flex;
-  justify-content: space-between;
-}
-#about-article section #sns .icon img {
-  width: 30px;
-  /* remove unwanted height on anchor tag */
-  vertical-align: bottom;
-  display: inline-block;
-}
 #about-article section iframe {
   width: 400px;
   border-radius: 5px;
   margin: 10px 40px;
 }
 #about-article section iframe.map {
-  height: 300px;
+  height: 100%;
 }
 #about-article section #introduction #full-name,
 #about-article section #introduction a {
@@ -181,6 +179,39 @@ footer {
   margin: 10px 40px;
 }
 
+/* about mobile page */
+@media screen and (max-width: 600px) {
+  #about-article section {
+    width: 100%;
+  }
+  #about-article section h2 {
+    margin: 0;
+  }
+  #about-article section p {
+    margin: 5px 5%;
+  }
+  #about-article section #contact-details,
+#about-article section #introduction {
+    width: 100%;
+  }
+  #about-article section #contact-details,
+#about-article section #introduction {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-article section iframe,
+#about-article section img {
+    width: 80%;
+    border-radius: 5px;
+    margin: 10px 0;
+    align-self: center;
+  }
+  #about-article section #introduction img {
+    width: 80%;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+}
 #skill-article section {
   width: 100%;
   display: flex;
@@ -242,6 +273,47 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#skill-article section #resume {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+#skill-article section #resume embed {
+  width: 100%;
+}
+#skill-article section #resume a {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  align-self: center;
+  position: relative;
+  display: inline-block;
+}
+#skill-article section #resume a:after {
+  content: "";
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  left: 50%;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  position: absolute;
+  display: block;
+}
+#skill-article section #resume a:hover:after {
+  width: 100%;
+  left: 0;
+}
+#skill-article section #resume a:visited {
+  color: white;
+}
+#skill-article section #resume a:visited {
+  color: white;
 }
 
 /* blog page */

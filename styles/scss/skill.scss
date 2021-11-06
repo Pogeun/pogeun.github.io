@@ -74,4 +74,30 @@
             @include center;
         }
     }
+
+    #resume {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+
+        embed {
+            width: 100%;
+        }
+
+        a {
+            font-size: 2em;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            align-self: center;
+    
+            @include style-link;
+    
+            &:visited {
+                color: white;
+            }
+        }
+    }
 }

@@ -1,0 +1,32 @@
+/* skill mobile page */
+@media screen and (max-width: 600px) {
+    #skill-article section {
+        #contact-details,
+        #introduction {
+            width: 100%;
+        }
+
+        h2 {
+            margin: 10px 0;
+        }
+
+        p,
+        #sns {
+            margin: 5px 5%;
+        }
+
+        iframe {
+            @include about_mobile-adjust-image;
+    
+            &.map {
+                height: 300px;
+            }
+        }
+
+        #introduction {
+            img {
+                @include about_mobile-adjust-image;
+            }
+        }
+    }
+}
