@@ -267,6 +267,10 @@ footer {
 #skill-article section #resume a:visited {
   color: white;
 }
+#skill-article section #resume pdf-view {
+  width: 50vw;
+  height: 50vh;
+}
 #skill-article section .content {
   margin-bottom: 20px;
   display: flex;
