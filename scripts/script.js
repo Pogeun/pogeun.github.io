@@ -44,13 +44,20 @@ function show(showNum, slideNum) {
     dots[index - 1].className += " activated";
 }
 
-document.addEventListener("adobe_dc_view_sdk.ready", function(){
-    var resumeView = new AdobeDC.View({clientId: "e0ad9d21530048e99e506af6037747ee", divId: "pdf-view"});
-    resumeView.previewFile({
-      content:{ location: { url: "../documents/Kyle_Joo Hwan_Kim_CV.pdf"}},
-      metaData:{fileName: "Kyle_Joo Hwan_Kim_CV.pdf"}
-    },
-    {
-      embedMode: "SIZED_CONTAINER"
+// Adobe DC Viewer
+document.addEventListener("adobe_dc_view_sdk.ready", function () {
+    var adobeDCView = new AdobeDC.View({
+        clientId: "e0ad9d21530048e99e506af6037747ee",
+        divId: "adobe-dc-view"
     });
-  });
+    adobeDCView.previewFile({
+        content: {
+            promise: "../documents/Kyle_Joo Hwan_Kim_CV.pdf"
+        },
+        metaData: {
+            fileName: "Kyle_Joo Hwan_Kim_CV.pdf"
+        }
+    }, {
+        embedMode: "SIZED_CONTAINER"
+    });
+});
