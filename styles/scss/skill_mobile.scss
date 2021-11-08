@@ -1,6 +1,19 @@
 /* skill mobile page */
 @media screen and (max-width: 600px) {
     #skill-article section {
+        #resume {
+            width: 100%;
+
+            a {
+                font-size: 1.5em;
+            }
+
+            embed {
+                width: 90%;
+                height: 60vh;
+            }
+        }
+
         .content {
             .slideshow,
             .description {

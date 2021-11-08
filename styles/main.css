@@ -87,6 +87,7 @@ header nav .menu-button {
 
 footer {
   height: 80px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,6 +226,51 @@ footer {
   flex-wrap: wrap;
   flex-direction: column;
 }
+#skill-article section #resume {
+  width: 60%;
+  margin-bottom: 40px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#skill-article section #resume a {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+#skill-article section #resume a:after {
+  content: "";
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  left: 50%;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  position: absolute;
+  display: block;
+}
+#skill-article section #resume a:hover:after {
+  width: 100%;
+  left: 0;
+}
+#skill-article section #resume a:visited {
+  color: white;
+}
+#skill-article section #resume a:visited {
+  color: white;
+}
+#skill-article section #resume embed {
+  width: 60vw;
+  height: 60vh;
+}
 #skill-article section .content {
   margin-bottom: 20px;
   display: flex;
@@ -282,50 +328,19 @@ footer {
   justify-content: center;
   align-items: center;
 }
-#skill-article section #resume {
-  width: 100%;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-}
-#skill-article section #resume embed {
-  width: 100%;
-}
-#skill-article section #resume a {
-  font-size: 2em;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  align-self: center;
-  position: relative;
-  display: inline-block;
-}
-#skill-article section #resume a:after {
-  content: "";
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  left: 50%;
-  background: white;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  position: absolute;
-  display: block;
-}
-#skill-article section #resume a:hover:after {
-  width: 100%;
-  left: 0;
-}
-#skill-article section #resume a:visited {
-  color: white;
-}
-#skill-article section #resume a:visited {
-  color: white;
-}
 
 /* skill mobile page */
 @media screen and (max-width: 600px) {
+  #skill-article section #resume {
+    width: 100%;
+  }
+  #skill-article section #resume a {
+    font-size: 1.5em;
+  }
+  #skill-article section #resume embed {
+    width: 90%;
+    height: 60vh;
+  }
   #skill-article section .content .slideshow,
 #skill-article section .content .description {
     width: 50%;
@@ -399,6 +414,11 @@ footer {
   transform: scale(1.05);
 }
 
+@media screen and (max-width: 600px) {
+  #blog-article section {
+    width: 100%;
+  }
+}
 /* blog post page */
 #blog_post-article section {
   width: 1000px;
@@ -452,7 +472,7 @@ footer {
 
 /* contact page */
 #contact-article section {
-  width: 400px;
+  max-width: 450px;
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -490,6 +510,12 @@ footer {
   /* remove unwanted height on anchor tag */
   vertical-align: bottom;
   display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  #contact-article section {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
