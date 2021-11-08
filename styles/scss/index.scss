@@ -1,11 +1,12 @@
-#home-article {
+#home-article section {
+    width: 100%;
+    align-self: center;
     display: flex;
-
-    section {
-        align-self: center;
+    flex-direction: column;
     
-        img {
-            width: 100%;
-        }
+    img {
+        width: 50%;
+        border-radius: 10px;
+        align-self: center;
     }
 }
