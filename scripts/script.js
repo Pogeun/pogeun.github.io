@@ -45,7 +45,7 @@ function show(showNum, slideNum) {
 }
 
 document.addEventListener("adobe_dc_view_sdk.ready", function(){
-    var resumeView = new AdobeDC.View({clientId: "e0ad9d21530048e99e506af6037747ee", divId: "pdf-view"});
+    var resumeView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "pdf-view"});
     resumeView.previewFile({
       content:{ location: 
         { url: "../documents/Kyle_Joo Hwan_Kim_CV.pdf"}},
