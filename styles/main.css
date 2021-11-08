@@ -119,14 +119,14 @@ footer {
   flex-direction: column;
 }
 #home-article section img {
-  width: 50%;
+  width: 45%;
   border-radius: 10px;
   align-self: center;
 }
 
 @media screen and (max-width: 600px) {
   #home-article section img {
-    width: 70%;
+    width: 80%;
   }
 }
 /* about page */
