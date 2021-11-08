@@ -119,7 +119,7 @@ footer {
   flex-direction: column;
 }
 #home-article section img {
-  width: 45%;
+  width: 50%;
   border-radius: 10px;
   align-self: center;
 }
@@ -234,7 +234,7 @@ footer {
 }
 #skill-article section .content .slideshow,
 #skill-article section .content .description {
-  width: 300px;
+  width: 30%;
 }
 #skill-article section .content .slideshow {
   display: flex;
@@ -324,6 +324,13 @@ footer {
   color: white;
 }
 
+/* skill mobile page */
+@media screen and (max-width: 600px) {
+  #skill-article section .content .slideshow,
+#skill-article section .content .description {
+    width: 50%;
+  }
+}
 /* blog page */
 #blog-article section {
   display: flex;
