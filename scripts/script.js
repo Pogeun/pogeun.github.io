@@ -43,3 +43,15 @@ function show(showNum, slideNum) {
     slides[index - 1].style.display = "block";
     dots[index - 1].className += " activated";
 }
+
+document.addEventListener("adobe_dc_view_sdk.ready", function(){
+    var resumeView = new AdobeDC.View({clientId: "e0ad9d21530048e99e506af6037747ee", divId: "pdf-view"});
+    resumeView.previewFile({
+      content:{ location: 
+        { url: "../documents/Kyle_Joo Hwan_Kim_CV.pdf"}},
+      metaData:{fileName: "Bodea Brochure.pdf"}
+    },
+    {
+      embedMode: "SIZED_CONTAINER"
+    });
+  });

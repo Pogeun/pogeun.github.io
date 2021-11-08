@@ -267,7 +267,7 @@ footer {
 #skill-article section #resume a:visited {
   color: white;
 }
-#skill-article section #resume embed {
+#skill-article section #resume pdf-view {
   width: 60vw;
   height: 60vh;
 }
@@ -337,7 +337,7 @@ footer {
   #skill-article section #resume a {
     font-size: 1.5em;
   }
-  #skill-article section #resume embed {
+  #skill-article section #resume pdf-view {
     width: 90%;
     height: 60vh;
   }
