@@ -1,3 +1,220 @@
+commit 57b5b45a36e26a2cc56692fa9c7a21c4092be9dc
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 13:29:52 2021 +1100
+
+    PDF viewer error fix
+
+commit dc3028040086dd44b8ff5d1ebcf20946d6b4f85f
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 13:27:05 2021 +1100
+
+    PDF viewer updated from embed to iframe
+
+commit 3a4dca8e933773412b0015c5c743bada39556bf7
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 13:22:55 2021 +1100
+
+    PDF viewer error fix
+
+commit 4851566dc6c43d4cbd349fecd937d922ed7b4383
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 03:00:17 2021 +1100
+
+    PDF viewer error fix
+
+commit 3333d6489eaac3c260a500bb7dcdda55a3fd6a5e
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 02:57:21 2021 +1100
+
+    PDF viewer fix 2
+
+commit 7b3ca19045f2935aca76fa070ec1123b0194e0df
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 02:52:21 2021 +1100
+
+    Revert "Revert "Adobe pdf viewer fix 2""
+    
+    This reverts commit b02a70f98f19ee33a3883de5fd57654adf6162d9.
+
+commit b02a70f98f19ee33a3883de5fd57654adf6162d9
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 02:52:05 2021 +1100
+
+    Revert "Adobe pdf viewer fix 2"
+    
+    This reverts commit cacf2fbd91c52527aa9039f0bb585c047cb9a84e.
+
+commit cacf2fbd91c52527aa9039f0bb585c047cb9a84e
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 02:42:13 2021 +1100
+
+    Adobe pdf viewer fix 2
+
+commit 16cfb3e8d33387d96812b24fb6e9bacd315cd300
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 02:09:17 2021 +1100
+
+    Adobe pdf viewer fix 1
+
+commit 9bf19ffbe56391935fc01db609d8b2dfea8f2cd3
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 01:57:01 2021 +1100
+
+    pdf viewer updated again
+
+commit 428cfe7557934f468087a6aa9ca11eddbf664458
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 01:21:57 2021 +1100
+
+    pdf viewer updated to Adobe
+
+commit 459dddcd3fff56061357c0e8ede72e13544f7082
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Tue Nov 9 01:11:28 2021 +1100
+
+    Skill page has been modified
+
+commit 2dc169c43a3eef0253fe46b4f293e22191b9eb4d
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Mon Nov 8 15:07:51 2021 +1100
+
+    responsive design for skill page added
+
+commit 8ac6011328bcb77377c50fd5219d2fd002885fd4
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Mon Nov 8 14:55:55 2021 +1100
+
+    image size for index page has been updated
+
+commit 82d1a47e699e80e92d72e476ac3f115bfc2befc7
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Mon Nov 8 14:22:45 2021 +1100
+
+    index page image updated
+
+commit e2081edc75d397f4e4f31967b9fa32ecaa96a02a
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sun Nov 7 04:19:51 2021 +1100
+
+    about page is now responsive to the screen size
+
+commit fc1625aa3404c95db1865a988009becc27093612
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 6 19:08:51 2021 +1100
+
+    updated script to handle multiple slideshow
+
+commit fa33efd06c9ae487c0891c22b43b7a2347c8927d
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 6 04:50:05 2021 +1100
+
+    Skill page has been initialized
+
+commit 2fdba0b69a2296e29672cce71a3ea62fae460873
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Fri Nov 5 21:41:19 2021 +1100
+
+    nav bar updated for mobile version
+
+commit be76a6db2e39d077bf7e4aff0f45d94e636f0897
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Thu Nov 4 10:48:21 2021 +1100
+
+    main.css indentation updated
+
+commit f99206d6b413e13c89d53594a209dbcd362e9468
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Thu Nov 4 10:44:40 2021 +1100
+
+    Updated styling of anchor tag on About page
+
+commit 994fb7f49a3e936c324c239990884ba899322039
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Thu Nov 4 10:40:51 2021 +1100
+
+    About page added
+
+commit 527995905e1379b2a4d82b19118206834b3b98b5
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Wed Nov 3 01:15:25 2021 +1100
+
+    Massive updates:
+        Blog page done for PC
+        Blog posts done for PC
+
+commit 2d8fb4e0753854f25c00c2241506d0569c160c76
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sun Oct 31 03:47:05 2021 +1100
+
+    slight update on nav bar (margin 30 to 20)
+
+commit 8a110d3c2e69e3432ce5b99b61f2848bd36860f2
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sun Oct 31 02:42:55 2021 +1100
+
+    Contact form updated
+
+commit 48a68f43ef69ca5c61da3d682fb1fb68d006a221
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sun Oct 31 01:00:10 2021 +1100
+
+    nav bar margin update (20px to 30px)
+
+commit bd333c8d35625d55d0d366004555775f20eaf3a7
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 23:04:09 2021 +1100
+
+    hamburger script added to every single page
+
+commit 8739a300a3599beff6d13504f0289042b067aeef
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 23:02:36 2021 +1100
+
+    hamburger menu button added to every single page
+
+commit 30638db46571386ac26b2910f3279972b411d515
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 22:52:15 2021 +1100
+
+    margining has been updated for mobile
+
+commit 88b568edf4ab466e8d37cc19b85a87098e29d009
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 22:43:24 2021 +1100
+
+    hamburger menu button added
+    folder structure changed
+
+commit 2d5c3c995c9a7c59037e11f3eaed9cb40e749304
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 17:17:18 2021 +1100
+
+    logo fixed for other pages
+
+commit 4c9f4613c553ca0619c9d9b8e63edd9edcb65369
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 16:58:41 2021 +1100
+
+    logo css removed as it is not needed
+
+commit 9b120196a1b7413819ddc60a35f0c6cb1340f4d1
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 16:57:19 2021 +1100
+
+    SVG logo updated
+
+commit 8194193f6dc474c862a6a5f0d2d5b64f8a523376
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 16:46:55 2021 +1100
+
+    indentation updated for CSS
+
+commit 821cd306a72d92930b9bf4db0e7cf426d739a0c9
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Oct 30 16:45:15 2021 +1100
+
+    logo format has been updated (PNG → SVG)
+
 commit f76aea5306c8a9e10ec486abc865d262ad3d2d5f
 Author: Pogeun <jiawy1189@gmail.com>
 Date:   Fri Oct 29 18:47:10 2021 +1100

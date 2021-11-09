@@ -1,60 +1,64 @@
 /* blog post page */
 #blog_post-article section {
-    width: 1000px;
-    align-self: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
-    @include center;
-
-    a#back {
-        margin: 10px 80px;
-        text-decoration: none;
-        color: white;
-        align-self: flex-start;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
-    h2,
-    #profile {
-        margin: 10px 80px;
-    }
-
-    h2 {
-        font-size: 40px;
+    #post {
+        width: 100%;
         align-self: center;
-    }
-
-    >img {
-        margin: 10px;
-        width: 900px;
-    }
-
-    #profile {
-        align-self: flex-start;
         display: flex;
+        flex-direction: column;
 
-        img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-        }
-
-        #author {
-            align-self: center;
-
-            p {
-                margin: 0 10px;
-                font-size: 12px;
+        a#back {
+            margin: 10px 80px;
+            text-decoration: none;
+            color: white;
+            align-self: flex-start;
+    
+            &:hover {
+                text-decoration: underline;
             }
         }
-    }
-
-    p {
-        margin: 10px 80px;
+    
+        h2,
+        #profile {
+            margin: 10px 80px;
+        }
+    
+        h2 {
+            font-size: 40px;
+            align-self: center;
+        }
+    
+        #main-image {
+            width: 60%;
+            margin: 10px;
+            align-self: center;
+        }
+    
+        #profile {
+            align-self: flex-start;
+            display: flex;
+    
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+    
+            #author {
+                align-self: center;
+    
+                p {
+                    margin: 0 10px;
+                    font-size: 12px;
+                }
+            }
+        }
+    
+        p {
+            margin: 10px 80px;
+        }
     }
 }
