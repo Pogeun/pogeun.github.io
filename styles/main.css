@@ -267,9 +267,9 @@ footer {
 #skill-article section #resume a:visited {
   color: white;
 }
-#skill-article section #resume #adobe-dc-view {
-  width: 50vw;
-  height: 50vh;
+#skill-article section #resume iframe {
+  width: 85%;
+  height: 70vh;
 }
 #skill-article section .content {
   margin-bottom: 20px;
@@ -336,6 +336,10 @@ footer {
   }
   #skill-article section #resume a {
     font-size: 1.5em;
+  }
+  #skill-article section #resume iframe {
+    width: 80%;
+    height: 50vh;
   }
   #skill-article section .content .slideshow,
 #skill-article section .content .description {
