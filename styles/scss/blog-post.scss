@@ -11,14 +11,14 @@
         flex-direction: column;
 
         a#back {
+            /* style the anchor tag with id "back" */
             margin: 10px 80px;
             text-decoration: none;
             color: white;
             align-self: flex-start;
-    
-            &:hover {
-                text-decoration: underline;
-            }
+
+            /* style the anchor tag */
+            @include style-link;
         }
     
         h2,
@@ -38,6 +38,7 @@
         }
     
         #profile {
+            /* align the profile to the start */
             align-self: flex-start;
             display: flex;
     
@@ -48,6 +49,7 @@
             }
     
             #author {
+                /* align the author & date to the center */
                 align-self: center;
     
                 p {

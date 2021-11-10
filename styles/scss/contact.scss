@@ -24,6 +24,7 @@
                 font-size: 12px;
             }
 
+            /* move the button the end of the flex box */
             input[type="submit"] {
                 width: 150px;
                 align-self: flex-end;
@@ -32,6 +33,7 @@
     }
 
     #sns {
+        /* align sns icons to the center */
         margin: 5px;
         width: 200px;
         align-self: center;

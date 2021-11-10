@@ -1,3 +1,7 @@
+/* 
+    slide show for skill page 
+*/
+
 // first slide to show
 var index = 1;
 
@@ -6,14 +10,17 @@ for (var i = 1; i <= 2; i++) {
     show(i, index);
 }
 
+// show the next or previous slide
 function showNext(showNum, slideNum) {
     show(showNum, index += slideNum);
 }
 
+// show the current slide
 function showCurrent(showNum, slideNum) {
     show(showNum, index = slideNum);
 }
 
+// show the slide and hide others
 function show(showNum, slideNum) {
     // get slides and dots
     var slides = document.getElementsByClassName("slides show-" + showNum);
@@ -43,21 +50,3 @@ function show(showNum, slideNum) {
     slides[index - 1].style.display = "block";
     dots[index - 1].className += " activated";
 }
-
-// Adobe DC Viewer
-document.addEventListener("adobe_dc_view_sdk.ready", function () {
-    var adobeDCView = new AdobeDC.View({
-        clientId: "e0ad9d21530048e99e506af6037747ee",
-        divId: "adobe-dc-view"
-    });
-    adobeDCView.previewFile({
-        content: {
-            promise: "../documents/Kyle_Joo Hwan_Kim_CV.pdf"
-        },
-        metaData: {
-            fileName: "Kyle_Joo Hwan_Kim_CV.pdf"
-        }
-    }, {
-        embedMode: "SIZED_CONTAINER"
-    });
-});

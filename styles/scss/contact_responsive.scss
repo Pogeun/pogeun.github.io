@@ -1,0 +1,10 @@
+/* contact responsive page */
+/*
+    only changed the section width to 100%
+    as nothing really is needed for the contact form
+*/
+@media screen and (max-width: 600px) {
+    #contact-article section {
+        width: 100%
+    }
+}

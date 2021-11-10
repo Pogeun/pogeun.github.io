@@ -1,0 +1,10 @@
+/* blog post responsive page */
+/*
+    only changed the section width to 100%
+    as nothing really is needed for the blog post
+*/
+@media screen and (max-width: 600px) {
+    #blog_post-article section {
+        width: 100%
+    }
+}

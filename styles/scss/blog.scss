@@ -1,11 +1,13 @@
 /* blog page */
 #blog-article section {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
 
     .preview {
+        /* the preview design */
         width: 400px;
         margin: 20px;
         display: flex;
@@ -13,6 +15,7 @@
     
         @include center;
     
+        /* transition animation which zooms-in & -out the preview card */
         transition: all .5s ease-out;
     
         p,
@@ -24,10 +27,13 @@
     
         h2,
         .button {
+            /* move the heading and button to the start point for the design purpose */
             align-self: flex-start;
         }
     
         .button {
+            /* button implementation made with anchor tag */
+            /* set the appearance of anchor tag to a button */
             appearance: button;
             -webkit-appearance: button;
             -moz-appearance: button;
@@ -66,10 +72,12 @@
         }
     
         img {
+            /* fill the image into the preview card but in consideration of its border */
             width: calc(100% - 20px);
             border-radius: 10px;
         }
     
+        /* simple zoom-in & -out animation */
         &:hover {
             transform:scale(1.05);
         }

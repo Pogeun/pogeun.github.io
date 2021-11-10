@@ -21,6 +21,7 @@ header {
 
         a {
             svg#logo g .cls-1 {
+                /* change the colour of the logo */
                 fill: white;
             }
         }
@@ -41,20 +42,13 @@ header {
                     text-decoration: none;
                     text-transform: uppercase;
                     color: white;
-                    // -webkit-touch-callout: none; /* iOS Safari */
-                    // -webkit-user-select: none; /* Safari */
-                    // -khtml-user-select: none; /* Konqueror HTML */
-                    // -moz-user-select: none; /* Old versions of Firefox */
-                    // -ms-user-select: none; /* Internet Explorer/Edge */
-                    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+                    /* do not allow the user to drag-select the text */
+                    user-select: none;
                 
+                    /* style the anchor tag */
                     @include style-link;
                 }
             }
-        }
-
-        .menu-button {
-            display: none;
         }
     }
 }
@@ -68,12 +62,8 @@ header {
         font-size: 50px;
         margin: 30px 10%;
         text-transform: uppercase;
-        // -webkit-touch-callout: none; /* iOS Safari */
-        // -webkit-user-select: none; /* Safari */
-        // -khtml-user-select: none; /* Konqueror HTML */
-        // -moz-user-select: none; /* Old versions of Firefox */
-        // -ms-user-select: none; /* Internet Explorer/Edge */
-        user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+        /* do not allow the user to drag-select the text */
+        user-select: none;
 
         &::after {
             content: " |";
@@ -88,6 +78,7 @@ header {
 
 footer {
     height: 80px;
+    /* align the text even if the screen size is off */
     text-align: center;
     display: flex;
     

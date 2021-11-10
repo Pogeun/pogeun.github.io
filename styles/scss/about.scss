@@ -17,6 +17,7 @@
             display: flex;
             justify-content: space-between;
     
+            /* adjust the design of SNS images used */
             .icon img {
                 width: 30px;
                 /* remove unwanted height on anchor tag */
@@ -26,6 +27,7 @@
         }
     }
 
+    /* turn all h2 tag to uppercase and add special character "#" before it */
     h2 {
         text-transform: uppercase;
         margin: 20px 10px;
@@ -35,6 +37,7 @@
         }
     }
 
+    /* redesign the anchor tag */
     a {
         text-decoration: none;
         color: white;
@@ -53,6 +56,7 @@
         margin: 5px 40px;
     }
 
+    /* adjust the design of iframe (map & spotify) */
     iframe {
         @include about-adjust-image;
 
@@ -67,6 +71,7 @@
             font-weight: bold;
         }
 
+        /* adjust the design of images used */
         img {
             @include about-adjust-image;
         }

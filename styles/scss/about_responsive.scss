@@ -1,4 +1,8 @@
-/* about mobile page */
+/* about responsive page */
+/*
+    for the about page, there was nothing really special.
+    It was pretty much about re-sizing the elements so that the page is responsive.
+*/
 @mixin about_mobile-adjust-image {
     width: 80%;
     border-radius: 5px;
@@ -30,15 +34,10 @@
 
         iframe,
         img {
+            /* adjust the image to fit the page */
             @include about_mobile-adjust-image;
 
             align-self: center;
-        }
-
-        #introduction {
-            img {
-                @include about_mobile-adjust-image;
-            }
         }
     }
 }

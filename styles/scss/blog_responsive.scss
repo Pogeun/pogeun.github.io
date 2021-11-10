@@ -1,0 +1,10 @@
+/* blog responsive page */
+/*
+    only changed the section width to 100%
+    as nothing really is needed for the preview cards
+*/
+@media screen and (max-width: 600px) {
+    #blog-article section {
+        width: 100%
+    }
+}

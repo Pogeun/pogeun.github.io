@@ -21,11 +21,17 @@
             text-transform: uppercase;
             color: white;
     
+            /* style the anchor tag */
             @include style-link;
     
             &:visited {
                 color: white;
             }
+        }
+
+        iframe {
+            width: 85%;
+            height: 60vh;
         }
     }
 
@@ -59,12 +65,8 @@
                 .left-arrow,
                 .dots,
                 .right-arrow {
-                    // -webkit-touch-callout: none; /* iOS Safari */
-                    // -webkit-user-select: none; /* Safari */
-                    // -khtml-user-select: none; /* Konqueror HTML */
-                    // -moz-user-select: none; /* Old versions of Firefox */
-                    // -ms-user-select: none; /* Internet Explorer/Edge */
-                    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+                    /* do not allow the user to drag-select the text */
+                    user-select: none;
                     cursor: pointer;
                 }
     
@@ -75,6 +77,7 @@
                 }
         
                 .dots {
+                    /* style the dots */
                     margin: 0 2px;
                     width: 10px;
                     height: 10px;
@@ -87,6 +90,10 @@
                 }
         
                 .activated {
+                    /* 
+                        switch the background colour of activated dots to white
+                        switching inactivated dots to empty is done via JavaScript
+                    */
                     background-color: white;
                 }
             }

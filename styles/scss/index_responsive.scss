@@ -1,0 +1,14 @@
+/* index responsive page */
+/*
+    only changed the section width to 100%
+    as nothing really is needed for the index page
+    since it only holds one image and one anchor tag
+    which redirects to the about page
+*/
+@media screen and (max-width: 600px) {
+    #home-article section {
+        img {
+            width: 80%;
+        }
+    }
+}
