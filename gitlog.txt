@@ -1,3 +1,15 @@
+commit 0b1601f8d1c16aa3cedfe0c255620fe59f2d3764
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Wed Nov 10 14:36:23 2021 +1100
+
+    commenting has been updated
+
+commit 40675e0884eaa29182d2eb829216d70c045b59a3
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Wed Nov 10 01:12:30 2021 +1100
+
+    Learn more about me added on index page
+
 commit 57b5b45a36e26a2cc56692fa9c7a21c4092be9dc
 Author: Pogeun <jiawy1189@gmail.com>
 Date:   Tue Nov 9 13:29:52 2021 +1100

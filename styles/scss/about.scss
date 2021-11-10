@@ -38,17 +38,13 @@
     }
 
     /* redesign the anchor tag */
-    a {
+    a#email,
+    a#coderacademy {
         text-decoration: none;
         color: white;
 
-        &:hover {
-            text-decoration: underline;
-        }
-
-        &:visited {
-            color: white;
-        }
+        /* style anchor tag */
+        @include style-link;
     }
 
     p,

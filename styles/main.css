@@ -235,16 +235,38 @@ footer {
     content: "# ";
 }
 
-#about-article section a {
+#about-article section a#email,
+#about-article section a#coderacademy {
     text-decoration: none;
     color: white;
+    /* style anchor tag */
+    position: relative;
+    display: inline-block;
+    /* implementing the extending underline for anchor tag */
 }
 
-#about-article section a:hover {
-    text-decoration: underline;
+#about-article section a#email:after,
+#about-article section a#coderacademy:after {
+    content: "";
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    position: absolute;
+    display: block;
 }
 
-#about-article section a:visited {
+#about-article section a#email:hover:after,
+#about-article section a#coderacademy:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+#about-article section a#email:visited,
+#about-article section a#coderacademy:visited {
     color: white;
 }
 
