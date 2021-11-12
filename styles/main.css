@@ -2,96 +2,106 @@
 /* set the font family and reset CSS */
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  background-color: #161619;
-  color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #161619;
+    color: white;
 }
 
 header {
-  background-color: #161619;
+    background-color: #161619;
 }
+
 header nav {
-  margin: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 header nav a svg#logo g .cls-1 {
-  /* change the colour of the logo */
-  fill: white;
+    /* change the colour of the logo */
+    fill: white;
 }
+
 header nav ul {
-  width: 300px;
-  height: 50px;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 header nav ul li a {
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  /* do not allow the user to drag-select the text */
-  user-select: none;
-  /* style the anchor tag */
-  position: relative;
-  display: inline-block;
-  /* implementing the extending underline for anchor tag */
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    /* do not allow the user to drag-select the text */
+    user-select: none;
+    /* style the anchor tag */
+    position: relative;
+    display: inline-block;
+    /* implementing the extending underline for anchor tag */
 }
+
 header nav ul li a:after {
-  content: "";
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  left: 50%;
-  background: white;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  position: absolute;
-  display: block;
+    content: "";
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    position: absolute;
+    display: block;
 }
+
 header nav ul li a:hover:after {
-  width: 100%;
-  left: 0;
+    width: 100%;
+    left: 0;
 }
+
 header nav ul li a:visited {
-  color: white;
+    color: white;
 }
 
 .main-article {
-  margin: 100px 0;
-  display: flex;
-  flex-direction: column;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
 }
+
 .main-article h1 {
-  font-size: 50px;
-  margin: 30px 10%;
-  text-transform: uppercase;
-  /* do not allow the user to drag-select the text */
-  user-select: none;
+    font-size: 50px;
+    margin: 30px 10%;
+    text-transform: uppercase;
+    /* do not allow the user to drag-select the text */
+    user-select: none;
 }
+
 .main-article h1::after {
-  content: " |";
+    content: " |";
 }
+
 .main-article section {
-  width: 60%;
-  align-self: center;
+    width: 60%;
+    align-self: center;
 }
 
 footer {
-  height: 80px;
-  /* align the text even if the screen size is off */
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 80px;
+    /* align the text even if the screen size is off */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* shared responsive design */
@@ -100,72 +110,82 @@ footer {
     apply new margin and font size for the main-article div
 */
 @media screen and (max-width: 600px) {
-  header nav {
-    margin: 20px;
-    flex-direction: column;
-  }
-  header nav ul {
-    width: 100%;
-    height: 40px;
-    margin-top: 10px;
-    justify-content: space-around;
-  }
+    header nav {
+        margin: 20px;
+        flex-direction: column;
+    }
 
-  .main-article {
-    margin: 10px 10px;
-  }
-  .main-article h1 {
-    font-size: 2rem;
-    margin: 10px 5%;
-  }
+    header nav ul {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+
+    .main-article {
+        margin: 10px 10px;
+    }
+
+    .main-article h1 {
+        font-size: 2rem;
+        margin: 10px 5%;
+    }
 }
+
 /* index page */
 #home-article section {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 #home-article section h2 {
-  margin: 10px;
+    margin: 10px;
 }
+
 #home-article section h2 a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  /* style extending underline */
-  position: relative;
-  display: inline-block;
-  /* implementing the extending underline for anchor tag */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    /* style extending underline */
+    position: relative;
+    display: inline-block;
+    /* implementing the extending underline for anchor tag */
 }
+
 #home-article section h2 a:after {
-  content: "";
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  left: 50%;
-  background: white;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  position: absolute;
-  display: block;
+    content: "";
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    position: absolute;
+    display: block;
 }
+
 #home-article section h2 a:hover:after {
-  width: 100%;
-  left: 0;
+    width: 100%;
+    left: 0;
 }
+
 #home-article section h2 a:visited {
-  color: white;
+    color: white;
 }
+
 #home-article section h2 a:visited {
-  color: white;
+    color: white;
 }
+
 #home-article section img {
-  width: 50%;
-  margin: 20px;
-  border-radius: 10px;
-  align-self: center;
+    width: 50%;
+    margin: 20px;
+    border-radius: 10px;
+    align-self: center;
 }
 
 /* index responsive page */
@@ -176,93 +196,108 @@ footer {
     which redirects to the about page
 */
 @media screen and (max-width: 600px) {
-  #home-article section img {
-    width: 80%;
-  }
+    #home-article section img {
+        width: 80%;
+    }
 }
+
 /* about page */
 #about-article section {
-  width: 65%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  /* turn all h2 tag to uppercase and add special character "#" before it */
-  /* redesign the anchor tag */
-  /* adjust the design of iframe (map & spotify) */
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* turn all h2 tag to uppercase and add special character "#" before it */
+    /* redesign the anchor tag */
+    /* adjust the design of iframe (map & spotify) */
 }
+
 #about-article section #contact-details #sns {
-  width: 100px;
-  display: flex;
-  justify-content: space-between;
-  /* adjust the design of SNS images used */
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* adjust the design of SNS images used */
 }
+
 #about-article section #contact-details #sns .icon img {
-  width: 30px;
-  /* remove unwanted height on anchor tag */
-  vertical-align: bottom;
-  display: inline-block;
+    width: 30px;
+    /* remove unwanted height on anchor tag */
+    vertical-align: bottom;
+    display: inline-block;
 }
+
 #about-article section h2 {
-  text-transform: uppercase;
-  margin: 20px 10px;
+    text-transform: uppercase;
+    margin: 20px 10px;
 }
+
 #about-article section h2::before {
-  content: "# ";
+    content: "# ";
 }
+
 #about-article section a#email,
 #about-article section a#coderacademy {
-  text-decoration: none;
-  color: white;
-  /* style anchor tag */
-  position: relative;
-  display: inline-block;
-  /* implementing the extending underline for anchor tag */
+    text-decoration: none;
+    color: white;
+    /* style anchor tag */
+    position: relative;
+    display: inline-block;
+    /* implementing the extending underline for anchor tag */
 }
+
 #about-article section a#email:after,
 #about-article section a#coderacademy:after {
-  content: "";
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  left: 50%;
-  background: white;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  position: absolute;
-  display: block;
+    content: "";
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    position: absolute;
+    display: block;
 }
+
 #about-article section a#email:hover:after,
 #about-article section a#coderacademy:hover:after {
-  width: 100%;
-  left: 0;
+    width: 100%;
+    left: 0;
 }
+
 #about-article section a#email:visited,
 #about-article section a#coderacademy:visited {
-  color: white;
+    color: white;
 }
+
 #about-article section p,
 #about-article section #sns {
-  margin: 5px 40px;
+    margin: 5px 40px;
 }
+
 #about-article section iframe {
-  width: 400px;
-  border-radius: 5px;
-  margin: 10px 40px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 10px 40px;
 }
+
 #about-article section iframe.map {
-  height: 100%;
+    height: 100%;
 }
+
 #about-article section #introduction {
-  /* adjust the design of images used */
+    /* adjust the design of images used */
 }
+
 #about-article section #introduction #full-name,
 #about-article section #introduction a {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 #about-article section #introduction img {
-  width: 400px;
-  border-radius: 5px;
-  margin: 10px 40px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 10px 40px;
 }
 
 /* about responsive page */
@@ -271,147 +306,171 @@ footer {
     It was pretty much about re-sizing the elements so that the page is responsive.
 */
 @media screen and (max-width: 600px) {
-  #about-article section {
+    #about-article section {
+        width: 100%;
+    }
+
+    #about-article section h2 {
+        margin: 0;
+    }
+
+    #about-article section p {
+        margin: 5px 5%;
+    }
+
+    #about-article section #contact-details,
+    #about-article section #introduction {
+        width: 100%;
+    }
+
+    #about-article section #contact-details,
+    #about-article section #introduction {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-article section iframe,
+    #about-article section img {
+        /* adjust the image to fit the page */
+        width: 80%;
+        border-radius: 5px;
+        margin: 10px 0;
+        align-self: center;
+    }
+}
+
+#skill-article section {
     width: 100%;
-  }
-  #about-article section h2 {
-    margin: 0;
-  }
-  #about-article section p {
-    margin: 5px 5%;
-  }
-  #about-article section #contact-details,
-#about-article section #introduction {
-    width: 100%;
-  }
-  #about-article section #contact-details,
-#about-article section #introduction {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#skill-article section #resume {
+    width: 60%;
+    margin-bottom: 40px;
+    align-self: center;
     display: flex;
     flex-direction: column;
-  }
-  #about-article section iframe,
-#about-article section img {
-    /* adjust the image to fit the page */
-    width: 80%;
-    border-radius: 5px;
-    margin: 10px 0;
-    align-self: center;
-  }
+    justify-content: center;
+    align-items: center;
 }
-#skill-article section {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-#skill-article section #resume {
-  width: 60%;
-  margin-bottom: 40px;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 #skill-article section #resume a {
-  margin-bottom: 20px;
-  font-size: 2em;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  /* style the anchor tag */
-  position: relative;
-  display: inline-block;
-  /* implementing the extending underline for anchor tag */
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    /* style the anchor tag */
+    position: relative;
+    display: inline-block;
+    /* implementing the extending underline for anchor tag */
 }
+
 #skill-article section #resume a:after {
-  content: "";
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  left: 50%;
-  background: white;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  position: absolute;
-  display: block;
+    content: "";
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    position: absolute;
+    display: block;
 }
+
 #skill-article section #resume a:hover:after {
-  width: 100%;
-  left: 0;
+    width: 100%;
+    left: 0;
 }
+
 #skill-article section #resume a:visited {
-  color: white;
+    color: white;
 }
+
 #skill-article section #resume a:visited {
-  color: white;
+    color: white;
 }
+
 #skill-article section #resume iframe {
-  width: 85%;
-  height: 60vh;
+    width: 85%;
+    height: 60vh;
 }
+
 #skill-article section .content {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 #skill-article section .content .slideshow,
 #skill-article section .content .description {
-  width: 30%;
+    width: 30%;
 }
+
 #skill-article section .content .slideshow {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 #skill-article section .content .slideshow .slides {
-  width: 100%;
-  border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
 }
+
 #skill-article section .content .slideshow .navigation {
-  margin: 10px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 #skill-article section .content .slideshow .navigation .left-arrow,
 #skill-article section .content .slideshow .navigation .dots,
 #skill-article section .content .slideshow .navigation .right-arrow {
-  /* do not allow the user to drag-select the text */
-  user-select: none;
-  cursor: pointer;
+    /* do not allow the user to drag-select the text */
+    user-select: none;
+    cursor: pointer;
 }
+
 #skill-article section .content .slideshow .navigation .dot-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 #skill-article section .content .slideshow .navigation .dots {
-  /* style the dots */
-  margin: 0 2px;
-  width: 10px;
-  height: 10px;
-  border: 1px solid white;
-  border-radius: 50%;
+    /* style the dots */
+    margin: 0 2px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
+
 #skill-article section .content .slideshow .navigation .dots:hover {
-  background-color: white;
+    background-color: white;
 }
+
 #skill-article section .content .slideshow .navigation .activated {
-  /* 
+    /* 
       switch the background colour of activated dots to white
       switching inactivated dots to empty is done via JavaScript
   */
-  background-color: white;
+    background-color: white;
 }
+
 #skill-article section .content .description {
-  margin: 10px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* skill responsive page */
@@ -420,91 +479,103 @@ footer {
     change the size of the slides and descriptions
 */
 @media screen and (max-width: 600px) {
-  #skill-article section #resume {
-    width: 100%;
-  }
-  #skill-article section #resume a {
-    font-size: 1.5em;
-  }
-  #skill-article section .content .slideshow,
-#skill-article section .content .description {
-    width: 50%;
-  }
+    #skill-article section #resume {
+        width: 100%;
+    }
+
+    #skill-article section #resume a {
+        font-size: 1.5em;
+    }
+
+    #skill-article section .content .slideshow,
+    #skill-article section .content .description {
+        width: 50%;
+    }
 }
+
 /* blog page */
 #blog-article section {
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
 }
+
 #blog-article section .preview {
-  /* the preview design */
-  width: 400px;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* transition animation which zooms-in & -out the preview card */
-  transition: all 0.5s ease-out;
-  /* simple zoom-in & -out animation */
+    /* the preview design */
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* transition animation which zooms-in & -out the preview card */
+    transition: all 0.5s ease-out;
+    /* simple zoom-in & -out animation */
 }
+
 #blog-article section .preview p,
 #blog-article section .preview img,
 #blog-article section .preview h2,
 #blog-article section .preview .button {
-  margin: 10px;
+    margin: 10px;
 }
+
 #blog-article section .preview h2,
 #blog-article section .preview .button {
-  /* move the heading and button to the start point for the design purpose */
-  align-self: flex-start;
+    /* move the heading and button to the start point for the design purpose */
+    align-self: flex-start;
 }
+
 #blog-article section .preview .button {
-  /* button implementation made with anchor tag */
-  /* set the appearance of anchor tag to a button */
-  appearance: button;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  text-decoration: none;
-  background-color: #8d4d37;
-  border: 1px solid #8d4d37;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: bold;
-  overflow: visible;
-  padding: 12px 24px;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transition: all 80ms ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
+    /* button implementation made with anchor tag */
+    /* set the appearance of anchor tag to a button */
+    appearance: button;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    background-color: #8d4d37;
+    border: 1px solid #8d4d37;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: visible;
+    padding: 12px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
 }
+
 #blog-article section .preview .button:disabled {
-  opacity: 0.5;
+    opacity: 0.5;
 }
+
 #blog-article section .preview .button:focus {
-  outline: 0;
+    outline: 0;
 }
+
 #blog-article section .preview .button:hover {
-  background-color: #6b3726;
-  border-color: #6b3726;
+    background-color: #6b3726;
+    border-color: #6b3726;
 }
+
 #blog-article section .preview img {
-  /* fill the image into the preview card but in consideration of its border */
-  width: calc(100% - 20px);
-  border-radius: 10px;
+    /* fill the image into the preview card but in consideration of its border */
+    width: calc(100% - 20px);
+    border-radius: 10px;
 }
+
 #blog-article section .preview:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 /* blog responsive page */
@@ -513,85 +584,98 @@ footer {
     as nothing really is needed for the preview cards
 */
 @media screen and (max-width: 600px) {
-  #blog-article section {
-    width: 100%;
-  }
+    #blog-article section {
+        width: 100%;
+    }
 }
+
 /* blog post page */
 #blog_post-article section {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
+
 #blog_post-article section #post {
-  width: 100%;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
 }
+
 #blog_post-article section #post a#back {
-  /* style the anchor tag with id "back" */
-  margin: 10px 40px;
-  text-decoration: none;
-  color: white;
-  align-self: flex-start;
-  /* style the anchor tag */
-  position: relative;
-  display: inline-block;
-  /* implementing the extending underline for anchor tag */
+    /* style the anchor tag with id "back" */
+    margin: 10px 40px;
+    text-decoration: none;
+    color: white;
+    align-self: flex-start;
+    /* style the anchor tag */
+    position: relative;
+    display: inline-block;
+    /* implementing the extending underline for anchor tag */
 }
+
 #blog_post-article section #post a#back:after {
-  content: "";
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  left: 50%;
-  background: white;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  position: absolute;
-  display: block;
+    content: "";
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    position: absolute;
+    display: block;
 }
+
 #blog_post-article section #post a#back:hover:after {
-  width: 100%;
-  left: 0;
+    width: 100%;
+    left: 0;
 }
+
 #blog_post-article section #post a#back:visited {
-  color: white;
+    color: white;
 }
+
 #blog_post-article section #post h2,
 #blog_post-article section #post #profile,
 #blog_post-article section #post p {
-  margin: 10px 40px;
+    margin: 10px 40px;
 }
+
 #blog_post-article section #post h2 {
-  font-size: 40px;
-  align-self: center;
+    font-size: 40px;
+    align-self: center;
 }
+
 #blog_post-article section #post #main-image {
-  width: 60%;
-  margin: 10px;
-  border-radius: 5px;
-  align-self: center;
+    width: 60%;
+    margin: 10px;
+    border-radius: 5px;
+    align-self: center;
 }
+
 #blog_post-article section #post #profile {
-  /* align the profile to the start */
-  align-self: flex-start;
-  display: flex;
+    /* align the profile to the start */
+    align-self: flex-start;
+    display: flex;
 }
+
 #blog_post-article section #post #profile img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
+
 #blog_post-article section #post #profile #author {
-  /* align the author & date to the center */
-  align-self: center;
+    /* align the author & date to the center */
+    align-self: center;
 }
+
 #blog_post-article section #post #profile #author p {
-  margin: 0 10px;
-  font-size: 12px;
+    margin: 0 10px;
+    font-size: 12px;
 }
 
 /* blog post responsive page */
@@ -599,68 +683,80 @@ footer {
     mostly about re-positioning the elements based on the screen size.
 */
 @media screen and (max-width: 834px) {
-  #blog_post-article section {
-    width: 100%;
-  }
-  #blog_post-article section #post a#back,
-#blog_post-article section #post h2,
-#blog_post-article section #post #profile,
-#blog_post-article section #post p {
-    margin: 10px 30px;
-  }
-  #blog_post-article section #post h2 {
-    font-size: 1.5em;
-  }
-  #blog_post-article section #post #profile img {
-    width: 40px;
-    height: 40px;
-  }
-  #blog_post-article section #post #main-image {
-    width: 80%;
-  }
+    #blog_post-article section {
+        width: 100%;
+    }
+
+    #blog_post-article section #post a#back,
+    #blog_post-article section #post h2,
+    #blog_post-article section #post #profile,
+    #blog_post-article section #post p {
+        margin: 10px 30px;
+    }
+
+    #blog_post-article section #post h2 {
+        font-size: 1.5em;
+    }
+
+    #blog_post-article section #post #profile img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #blog_post-article section #post #main-image {
+        width: 80%;
+    }
 }
+
 /* contact page */
 #contact-article section {
-  max-width: 450px;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    max-width: 450px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 #contact-article section h2 {
-  font-size: 40px;
-  margin: 10px 0;
+    font-size: 40px;
+    margin: 10px 0;
 }
+
 #contact-article section form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 #contact-article section form p {
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  /* move the button the end of the flex box */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    /* move the button the end of the flex box */
 }
+
 #contact-article section form p label {
-  font-size: 12px;
+    font-size: 12px;
 }
+
 #contact-article section form p input[type=submit] {
-  width: 150px;
-  align-self: flex-end;
+    width: 150px;
+    align-self: flex-end;
 }
+
 #contact-article section #sns {
-  /* align sns icons to the center */
-  margin: 5px;
-  width: 200px;
-  align-self: center;
-  display: flex;
-  justify-content: space-between;
+    /* align sns icons to the center */
+    margin: 5px;
+    width: 200px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
 }
+
 #contact-article section #sns .icon img {
-  width: 30px;
-  /* remove unwanted height on anchor tag */
-  vertical-align: bottom;
-  display: inline-block;
+    width: 30px;
+    /* remove unwanted height on anchor tag */
+    vertical-align: bottom;
+    display: inline-block;
 }
 
 /* contact responsive page */
@@ -669,9 +765,9 @@ footer {
     as nothing really is needed for the contact form
 */
 @media screen and (max-width: 600px) {
-  #contact-article section {
-    width: 100%;
-  }
+    #contact-article section {
+        width: 100%;
+    }
 }
 
 /*# sourceMappingURL=main.css.map */
