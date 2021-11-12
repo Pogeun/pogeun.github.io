@@ -591,6 +591,7 @@ footer {
 
 /* blog post page */
 #blog_post-article section {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -638,7 +639,8 @@ footer {
 }
 
 #blog_post-article section #post h2,
-#blog_post-article section #post #profile {
+#blog_post-article section #post #profile,
+#blog_post-article section #post p {
     margin: 10px 80px;
 }
 
@@ -675,10 +677,6 @@ footer {
     font-size: 12px;
 }
 
-#blog_post-article section #post p {
-    margin: 10px 80px;
-}
-
 /* blog post responsive page */
 /*
     only changed the section width to 100% and font size to 1.5em
@@ -689,8 +687,24 @@ footer {
         width: 100%;
     }
 
+    #blog_post-article section #post a#back,
+    #blog_post-article section #post h2,
+    #blog_post-article section #post #profile,
+    #blog_post-article section #post p {
+        margin: 10px 30px;
+    }
+
     #blog_post-article section #post h2 {
         font-size: 1.5em;
+    }
+
+    #blog_post-article section #post #profile img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #blog_post-article section #post #main-image {
+        width: 80%;
     }
 }
 

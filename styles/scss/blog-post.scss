@@ -1,5 +1,6 @@
 /* blog post page */
 #blog_post-article section {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -22,7 +23,8 @@
         }
     
         h2,
-        #profile {
+        #profile,
+        p {
             margin: 10px 80px;
         }
     
@@ -57,10 +59,6 @@
                     font-size: 12px;
                 }
             }
-        }
-    
-        p {
-            margin: 10px 80px;
         }
     }
 }
