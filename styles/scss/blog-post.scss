@@ -1,6 +1,6 @@
 /* blog post page */
 #blog_post-article section {
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -13,7 +13,7 @@
 
         a#back {
             /* style the anchor tag with id "back" */
-            margin: 10px 80px;
+            margin: 10px 40px;
             text-decoration: none;
             color: white;
             align-self: flex-start;
@@ -25,7 +25,7 @@
         h2,
         #profile,
         p {
-            margin: 10px 80px;
+            margin: 10px 40px;
         }
     
         h2 {
@@ -36,6 +36,7 @@
         #main-image {
             width: 60%;
             margin: 10px;
+            border-radius: 5px;
             align-self: center;
         }
     
