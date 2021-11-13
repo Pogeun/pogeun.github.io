@@ -1,3 +1,33 @@
+commit 3efae0a45ca32fce327d4edd1126c7162ec3ffc4
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 00:11:59 2021 +1100
+
+    indentation updated for CSS
+
+commit ca48807b3de8394ead68a43b9b2561d2e89f7025
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Fri Nov 12 16:20:14 2021 +1100
+
+    modified the sizing of blog post
+
+commit bceffe7131064b2e0b32f12c7462285dfdfa0fab
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Fri Nov 12 15:52:40 2021 +1100
+
+    fixed screen size issue with blog post articles
+
+commit 94ec051a3927548c66d6e5c3fe5bfa9d7021b66f
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Thu Nov 11 17:15:06 2021 +1100
+
+    Responsive design update for blog post page
+
+commit 416dc0476d76e42cb2783b08b47bc34ad23a2de1
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Thu Nov 11 16:54:20 2021 +1100
+
+    fixed font size of blog post
+
 commit 7e955f4f63a53f0e243ff27c58b8f436563953a0
 Author: Pogeun <jiawy1189@gmail.com>
 Date:   Wed Nov 10 16:15:03 2021 +1100
