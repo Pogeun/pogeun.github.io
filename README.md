@@ -78,33 +78,33 @@ This is the very first website that I have built for myself to showcase about me
 ### **Screenshots**
 * **Index**
 <p><img src="./docs/screenshot/index-web.jpg" alt="Web Index"></p>
-<p><img src="./docs/screenshot/index-tablet.png" style="width: 60%;" alt="Tablet Index"></p>
-<p><img src="./docs/screenshot/index-mobile.png" style="width: 60%;" alt="Mobile Index"></p>
+<p><img src="./docs/screenshot/index-tablet.png" style="width: 834px; height: 1194px;" alt="Tablet Index"></p>
+<p><img src="./docs/screenshot/index-mobile.png" style="width: 428px; height: 926px;" alt="Mobile Index"></p>
 
 * **About**
 <p><img src="./docs/screenshot/about-web.png" alt="Web About Page"></p>
-<p><img src="./docs/screenshot/about-tablet.png" style="width: 60%;" alt="Tablet About Page"></p>
-<p><img src="./docs/screenshot/about-mobile.png" style="width: 60%;" alt="Mobile About Page"></p>
+<p><img src="./docs/screenshot/about-tablet.png" style="width: 834px; height: 1194px;" alt="Tablet About Page"></p>
+<p><img src="./docs/screenshot/about-mobile.png" style="width: 428px; height: 926px;" alt="Mobile About Page"></p>
 
 * **Skill**
 <p><img src="./docs/screenshot/skill-web.png" alt="Web Skill Page"></p>
-<p><img src="./docs/screenshot/skill-tablet.png" style="width: 60%;" alt="Tablet Skill Page"></p>
-<p><img src="./docs/screenshot/skill-mobile.png" style="width: 60%;" alt="Mobile Skill Page"></p>
+<p><img src="./docs/screenshot/skill-tablet.png" style="width: 834px; height: 1194px;" alt="Tablet Skill Page"></p>
+<p><img src="./docs/screenshot/skill-mobile.png" style="width: 428px; height: 926px;" alt="Mobile Skill Page"></p>
 
 * **Blog**
 <p><img src="./docs/screenshot/blog-web.png" alt="Web Blog Page"></p>
-<p><img src="./docs/screenshot/blog-tablet.jpg" style="width: 60%;" alt="Tablet Blog Page"></p>
-<p><img src="./docs/screenshot/blog-mobile.png" style="width: 60%;" alt="Mobile Blog Page"></p>
+<p><img src="./docs/screenshot/blog-tablet.jpg" style="width: 834px; height: 1194px;" alt="Tablet Blog Page"></p>
+<p><img src="./docs/screenshot/blog-mobile.png" style="width: 428px; height: 926px;" alt="Mobile Blog Page"></p>
 
 * **Blog post**
 <p><img src="./docs/screenshot/blog_post-web.jpg" alt="Web Blog post Page"></p>
-<p><img src="./docs/screenshot/blog_post-tablet.png" style="width: 60%;" alt="Tablet Blog post Page"></p>
-<p><img src="./docs/screenshot/blog_post-mobile.png" style="width: 60%;" alt="Mobile Blog post Page"></p>
+<p><img src="./docs/screenshot/blog_post-tablet.png" style="width: 834px; height: 1194px;" alt="Tablet Blog post Page"></p>
+<p><img src="./docs/screenshot/blog_post-mobile.png" style="width: 428px; height: 926px;" alt="Mobile Blog post Page"></p>
 
 * **Contact**
 <p><img src="./docs/screenshot/contact-web.png" alt="Web Contact Page"></p>
-<p><img src="./docs/screenshot/contact-tablet.png" style="width: 60%;" alt="Tablet Contact Page"></p>
-<p><img src="./docs/screenshot/contact-mobile.png" style="width: 60%;" alt="Mobile Contact Page"></p>
+<p><img src="./docs/screenshot/contact-tablet.png" style="width: 834px; height: 1194px;" alt="Tablet Contact Page"></p>
+<p><img src="./docs/screenshot/contact-mobile.png" style="width: 428px; height: 926px;" alt="Mobile Contact Page"></p>
 
 <p>&nbsp;</p>
 
