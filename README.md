@@ -69,40 +69,42 @@ This is the very first website that I have built for myself to showcase about me
 <p>&nbsp;</p>
 
 ### **Sitemap**
-<img src="./docs/sitemap.png" alt="sitemap">
+<p align="center">
+    <img src="./docs/sitemap.png" alt="sitemap">
+</p>
 
 <p>&nbsp;</p>
 
 ### **Screenshots**
 * **Index**
-<p><img src="./docs/screenshot/Web 1920 - Index.png" alt="Web 1920 - Index"></p>
-<p><img src="./docs/screenshot/iPad Pro 12.9 - Index.png" alt="iPad Pro 12.9 - Index"></p>
-<p><img src="./docs/screenshot/iPhone 12 Pro Max - Index.png" alt="iPhone 12 Pro Max - Index"></p>
+<p><img src="./docs/screenshot/index-web.jpg" alt="Web Index"></p>
+<p><img src="./docs/screenshot/index-tablet.png" alt="Tablet Index"></p>
+<p><img src="./docs/screenshot/index-mobile.png" alt="Mobile Index"></p>
 
 * **About**
-<p><img src="./docs/screenshot/Web 1920 - About.png" alt="Web 1920 - About"></p>
-<p><img src="./docs/screenshot/iPad Pro 12.9 - About.png" alt="iPad Pro 12.9 - About"></p>
-<p><img src="./docs/screenshot/iPhone 12 Pro Max - About.png" alt="iPhone 12 Pro Max - About"></p>
+<p><img src="./docs/screenshot/about-web.png" alt="Web About Page"></p>
+<p><img src="./docs/screenshot/about-tablet.png" alt="Tablet About Page"></p>
+<p><img src="./docs/screenshot/about-mobile.png" alt="Mobile About Page"></p>
 
 * **Skill**
-<p><img src="./docs/screenshot/Web 1920 - Skill.png" alt="Web 1920 - Skill"></p>
-<p><img src="./docs/screenshot/iPad Pro 12.9 - Skill.png" alt="iPad Pro 12.9 - Skill"></p>
-<p><img src="./docs/screenshot/iPhone 12 Pro Max - Skill.png" alt="iPhone 12 Pro Max - Skill"></p>
+<p><img src="./docs/screenshot/skill-web.png" alt="Web Skill Page"></p>
+<p><img src="./docs/screenshot/skill-tablet.png" alt="Tablet Skill Page"></p>
+<p><img src="./docs/screenshot/skill-mobile.png" alt="Mobile Skill Page"></p>
 
 * **Blog**
-<p><img src="./docs/screenshot/Web 1920 - Blog.png" alt="Web 1920 - Blog"></p>
-<p><img src="./docs/screenshot/iPad Pro 12.9 - Blog.png" alt="iPad Pro 12.9 - Blog"></p>
-<p><img src="./docs/screenshot/iPhone 12 Pro Max - Blog.png" alt="iPhone 12 Pro Max - Blog"></p>
+<p><img src="./docs/screenshot/blog-web.png" alt="Web Blog Page"></p>
+<p><img src="./docs/screenshot/blog-tablet.jpg" alt="Tablet Blog Page"></p>
+<p><img src="./docs/screenshot/blog-mobile.png" alt="Mobile Blog Page"></p>
 
 * **Blog post**
-<p><img src="./docs/screenshot/Web 1920 - Blog post.png" alt="Web 1920 - Blog post"></p>
-<p><img src="./docs/screenshot/iPad Pro 12.9 - Blog post.png" alt="iPad Pro 12.9 - Blog post"></p>
-<p><img src="./docs/screenshot/iPhone 12 Pro Max - Blog post.png" alt="iPhone 12 Pro Max - Blog post"></p>
+<p><img src="./docs/screenshot/blog_post-web.jpg" alt="Web Blog post Page"></p>
+<p><img src="./docs/screenshot/blog_post-tablet.png" alt="Tablet Blog post Page"></p>
+<p><img src="./docs/screenshot/blog_post-mobile.png" alt="Mobile Blog post Page"></p>
 
 * **Contact**
-<p><img src="./docs/screenshot/Web 1920 - Contact.png" alt="Web 1920 - Contact"></p>
-<p><img src="./docs/screenshot/iPad Pro 12.9 - Contact.png" alt="iPad Pro 12.9 - Contact"></p>
-<p><img src="./docs/screenshot/iPhone 12 Pro Max - Contact.png" alt="iPhone 12 Pro Max - Contact"></p>
+<p><img src="./docs/screenshot/contact-web.png" alt="Web Contact Page"></p>
+<p><img src="./docs/screenshot/contact-tablet.png" alt="Tablet Contact Page"></p>
+<p><img src="./docs/screenshot/contact-mobile.png" alt="Mobile Contact Page"></p>
 
 <p>&nbsp;</p>
 
