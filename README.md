@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./docs/logo.png">
+    <img src="./docs/logo.png" style="width: 60%;">
 </p>
 
 # **Kyle Joo Hwan Kim Portfolio Website**
