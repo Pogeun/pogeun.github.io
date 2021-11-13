@@ -78,17 +78,17 @@ This is the very first website that I have built for myself to showcase about me
 ### **Screenshots**
 * **Index**
 <p><img src="./docs/screenshot/index-web.jpg" alt="Web Index"></p>
-<p><img src="./docs/screenshot/index-tablet.png" alt="Tablet Index"></p>
+<p><img src="./docs/screenshot/index-tablet.png" style="width: 60%;" alt="Tablet Index"></p>
 <p><img src="./docs/screenshot/index-mobile.png" alt="Mobile Index"></p>
 
 * **About**
 <p><img src="./docs/screenshot/about-web.png" alt="Web About Page"></p>
-<p><img src="./docs/screenshot/about-tablet.png" alt="Tablet About Page"></p>
+<p><img src="./docs/screenshot/about-tablet.png" style="width: 60%;" alt="Tablet About Page"></p>
 <p><img src="./docs/screenshot/about-mobile.png" alt="Mobile About Page"></p>
 
 * **Skill**
 <p><img src="./docs/screenshot/skill-web.png" alt="Web Skill Page"></p>
-<p><img src="./docs/screenshot/skill-tablet.png" alt="Tablet Skill Page"></p>
+<p><img src="./docs/screenshot/skill-tablet.png" style="width: 60%;" alt="Tablet Skill Page"></p>
 <p><img src="./docs/screenshot/skill-mobile.png" alt="Mobile Skill Page"></p>
 
 * **Blog**
@@ -98,12 +98,12 @@ This is the very first website that I have built for myself to showcase about me
 
 * **Blog post**
 <p><img src="./docs/screenshot/blog_post-web.jpg" alt="Web Blog post Page"></p>
-<p><img src="./docs/screenshot/blog_post-tablet.png" alt="Tablet Blog post Page"></p>
+<p><img src="./docs/screenshot/blog_post-tablet.png" style="width: 60%;" alt="Tablet Blog post Page"></p>
 <p><img src="./docs/screenshot/blog_post-mobile.png" alt="Mobile Blog post Page"></p>
 
 * **Contact**
 <p><img src="./docs/screenshot/contact-web.png" alt="Web Contact Page"></p>
-<p><img src="./docs/screenshot/contact-tablet.png" alt="Tablet Contact Page"></p>
+<p><img src="./docs/screenshot/contact-tablet.png" style="width: 60%;" alt="Tablet Contact Page"></p>
 <p><img src="./docs/screenshot/contact-mobile.png" alt="Mobile Contact Page"></p>
 
 <p>&nbsp;</p>
