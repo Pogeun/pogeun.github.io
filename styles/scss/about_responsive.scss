@@ -28,6 +28,7 @@
 
         #contact-details,
         #introduction {
+            /* made two div elements to flex as it is gets easier to position elements */
             display: flex;
             flex-direction: column;
         }

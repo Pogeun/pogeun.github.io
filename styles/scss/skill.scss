@@ -15,6 +15,7 @@
 
         a {
             margin-bottom: 20px;
+            /* style text of anchor tag */
             font-size: 2em;
             font-weight: bold;
             text-decoration: none;
@@ -40,6 +41,7 @@
         display: flex;
         flex-direction: column;
 
+        /* align all elements to the center */
         @include center;
 
         .slideshow,
@@ -57,6 +59,7 @@
             }
             
             .navigation {
+                /* properly position bullets & arrows */
                 margin: 10px 0;
                 display: flex;
                 flex-wrap: wrap;
@@ -73,6 +76,7 @@
                 .dot-list {
                     display: flex;
         
+                    /* center all dot points in the list */
                     @include center;
                 }
         
@@ -104,6 +108,7 @@
             text-transform: uppercase;
             display: flex;
             
+            /* align elements to the center */
             @include center;
         }
     }

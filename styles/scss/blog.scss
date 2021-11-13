@@ -35,6 +35,7 @@
             /* button implementation made with anchor tag */
             /* set the appearance of anchor tag to a button */
             appearance: button;
+            /* webkit for Chrome, o for Opera, ms for internet explorer & moz for Firefox */
             -webkit-appearance: button;
             -moz-appearance: button;
             text-decoration: none;

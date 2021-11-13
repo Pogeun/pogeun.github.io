@@ -1,3 +1,75 @@
+commit f4b7d18ad06c37487a5470f71c95975709e99937
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:28:20 2021 +1100
+
+    README.md log size update
+
+commit 9c47c838698ebe2dce99359bdf6c02aaebc3854d
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:27:03 2021 +1100
+
+    README.md size update 4
+
+commit 004c44c7a3bfaf848c585f945a6d129fe8d647a6
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:25:28 2021 +1100
+
+    README.md size update 3
+
+commit 360f6c9668b01d5bc8dc4043aaf2b2c1bc3d2f6e
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:23:05 2021 +1100
+
+    README.md size update 2
+
+commit e09da47ea3efd2ca34fdef10ab2acf232f7b8ff8
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:22:37 2021 +1100
+
+    README.md size update
+
+commit f0f1a99782fd91decb484617ca087d4e429b2761
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:21:26 2021 +1100
+
+    README.md update 6
+
+commit e28c0974fe24688017bf3cf6e518984c849303c5
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:20:29 2021 +1100
+
+    README.md update 5
+
+commit c52f914ac07126aab1b03c6139c184d5de45b867
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:19:49 2021 +1100
+
+    README.md update 4
+
+commit 1e501b37380d462c31a4c2f365f3c46d84deb27e
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:18:55 2021 +1100
+
+    README.md update 3
+
+commit 19ae8425d110e291c37adce974092c8ebdcc05a9
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:17:37 2021 +1100
+
+    README.md update 2
+
+commit 263eec8b9c26347211d3e6cd6d908822f0e5eb14
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 16:00:16 2021 +1100
+
+    README.md updated
+
+commit 9bdf1a0ac4383b8098246b425899211981b0a826
+Author: Pogeun <jiawy1189@gmail.com>
+Date:   Sat Nov 13 15:17:35 2021 +1100
+
+    SRI (Subresource Integrity) implementation added
+
 commit 3efae0a45ca32fce327d4edd1126c7162ec3ffc4
 Author: Pogeun <jiawy1189@gmail.com>
 Date:   Sat Nov 13 00:11:59 2021 +1100
